@@ -1,7 +1,8 @@
 version: "3"
 services:
  DNS:
-  image: internetsystemsconsortium/bind9:9.18
+  build: .
+  image: dns
   ports: 
    - 53:53/udp
    - 53:53/tcp
