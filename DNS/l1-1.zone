@@ -1,14 +1,13 @@
 $ORIGIN l1-1.ephec-ti.be.
 $TTL 86400	; 1 day
-@	IN	SOA	soa.l1-1.ephec-ti.be.	hostmaster.l1-1.ephec-ti.be (
+@	IN	SOA	ns.l1-1.ephec-ti.be.	hostmaster.l1-1.ephec-ti.be (
 			2001062511 ; serial
                         21600      ; refresh (6 hours)
                         900        ; retry (15 minutes)
                         604800     ; expire (1 week)
                         86400 )    ; minimum (1 day)
 
-	IN	NS	soa.l1-1.ephec-ti.be.
+	IN	NS	ns.l1-1.ephec-ti.be.
 
-soa	IN	A	54.37.8.13
-soa	IN	AAAA	2001:41d0:401:3000::f8
-www	IN	CNAME	soa
+ns	IN	A	54.37.8.13
+www	IN	CNAME	ns
