@@ -6,6 +6,3 @@ services:
   ports: 
    - 53:53/udp
    - 53:53/tcp
-  volumes:
-   - ./named.conf:/etc/bind/named.conf
-   - ./l1-1.zone:/etc/bind/l1-1.zone
