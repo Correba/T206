@@ -12,3 +12,5 @@ $TTL 86400	; 1 day
 ns	IN	A	54.37.8.13
 www	IN	CNAME	ns
 blog	IN	CNAME	ns
+louis   IN      A       54.37.11.203
+hugo    IN      A       54.37.13.186

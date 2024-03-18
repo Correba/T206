@@ -1,12 +1,12 @@
 <html>
 <style>
-      table,
-      th,
-      td {
-        padding: 10px;
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
+	table,
+	th,
+	td {
+		padding: 10px;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
 </style>
 
 <head>
@@ -20,7 +20,7 @@
 $dbname = getenv('MYSQL_DATABASE');
 $dbuser = getenv('MYSQL_USER');
 $dbpass = getenv('MYSQL_PASSWORD');
-$dbhost = 'db';
+$dbhost = getenv('MYSQL_HOST');
 $connect = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Unable to connect to '$dbhost'");
 mysqli_select_db($connect,$dbname) or die("Could not open the database '$dbname'");
 $result = mysqli_query($connect,"SELECT id, name, price FROM products");
@@ -28,9 +28,9 @@ $result = mysqli_query($connect,"SELECT id, name, price FROM products");
 
 <table>
 <tr>
-    <th>Numéro de produit</th>
-    <th>Descriptif</th> 
-    <th>Prix</th>
+	<th>Numéro de produit</th>
+	<th>Descriptif</th>
+	<th>Prix</th>
 </tr>
 
 <?

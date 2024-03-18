@@ -2,6 +2,10 @@ version: "3"
 services:
   web:
     image: nginx:latest
+    container_name: web
+    hostname: web
+    depends_on: 
+      - php
     ports:
       - 80:80
     volumes:
@@ -12,24 +16,32 @@ services:
   php:
     build: ./php
     image: php
+    container_name: php
+    hostname: php
+    depends_on: 
+      - db
     environment:
       MYSQL_DATABASE: ${DATABASE}
-      MYSQL_USER: ${USER}
-      MYSQL_PASSWORD: ${USER_PASS}
+      MYSQL_USER: ${PHP_USER}
+      MYSQL_PASSWORD: ${PHP_PASS}
+      MYSQL_HOST: ${PHP_HOST}
     volumes:
-      - ./html/www:/var/www/html/www
+      - ./html:/var/www/html
     networks:
       - api
       - db
   db:
     image: mariadb
+    container_name: db
+    hostname: db
     environment:
       MYSQL_ROOT_PASSWORD: ${ROOT_PASS}
       MYSQL_DATABASE: ${DATABASE}
-      MYSQL_USER: ${USER}
+      MYSQL_USER: ${USER_DB}
       MYSQL_PASSWORD: ${USER_PASS}
     volumes:
-      - ./db:/docker-entrypoint-initdb.d
+      - ./db/sql:/docker-entrypoint-initdb.d
+      - ./db/conf/my-resolve.cnf:/etc/mysql/conf.d/my-resolve.cnf
     networks:
       - db
 
