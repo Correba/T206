@@ -9,6 +9,8 @@ $TTL 86400	; 1 day
 
 	IN	NS	ns.l1-1.ephec-ti.be.
 
+_acme-challenge IN TXT FAPQn6fE0EnbX-6bt14Jvb0CXmvrIzBb0hxHF9SLXGo
+
 ns	IN	A	54.37.8.13
 www	IN	CNAME	ns
 blog	IN	CNAME	ns

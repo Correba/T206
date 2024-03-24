@@ -1,16 +1,20 @@
-version: "3"
 services:
   web:
-    image: nginx:latest
+    build: .
+    image: web
     container_name: web
     hostname: web
     depends_on: 
       - php
     ports:
       - 80:80
+      - 443:443
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
       - ./html:/var/www/html
+      - ./certificate/nginx-selfsigned.crt:/etc/ssl/certs/nginx-selfsigned.crt
+      - ./certificate/nginx-selfsigned.key:/etc/ssl/private/nginx-selfsigned.key
+      - ./zone/fullchain.pem:/etc/letsencrypt/archive/l1-1.ephec-ti.be/fullchain.pem
+      - ./zone/privkey.pem:/etc/letsencrypt/archive/l1-1.ephec-ti.be/privkey.pem
     networks:
       - api
   php:
