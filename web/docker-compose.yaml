@@ -11,10 +11,8 @@ services:
       - 443:443
     volumes:
       - ./html:/var/www/html
-      - ./certificate/nginx-selfsigned.crt:/etc/ssl/certs/nginx-selfsigned.crt
-      - ./certificate/nginx-selfsigned.key:/etc/ssl/private/nginx-selfsigned.key
-      - ./zone/fullchain.pem:/etc/letsencrypt/archive/l1-1.ephec-ti.be/fullchain.pem
-      - ./zone/privkey.pem:/etc/letsencrypt/archive/l1-1.ephec-ti.be/privkey.pem
+      - ../certificate/:/etc/letsencrypt/
+
     networks:
       - api
   php:
