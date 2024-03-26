@@ -2,11 +2,13 @@ services:
  dns:
   container_name: dns
   hostname: dns
-  build: .
   image: dns
   ports: 
    - 53:53/udp
    - 53:53/tcp
+   - 853:853/tcp
+  volumes:
+   - ../certificate:/etc/letsencrypt/
   develop:
    watch:
     - action: sync+restart
