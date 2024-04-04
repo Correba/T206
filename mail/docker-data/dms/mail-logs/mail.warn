@@ -1,0 +1,696 @@
+Apr  4 13:07:33 mail postfix[696]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:33 mail postfix[696]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:40 mail postfix[755]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:40 mail postfix[755]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:47 mail postfix[766]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:47 mail postfix[766]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:54 mail postfix[780]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:07:54 mail postfix[780]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:01 mail postfix[798]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:01 mail postfix[798]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:08 mail postfix[812]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:08 mail postfix[812]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:15 mail postfix[823]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:15 mail postfix[823]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:22 mail postfix[916]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:22 mail postfix[916]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:29 mail postfix[935]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:29 mail postfix[935]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:36 mail postfix[949]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:36 mail postfix[949]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:43 mail postfix[960]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:43 mail postfix[960]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:50 mail postfix[974]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:50 mail postfix[974]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:58 mail postfix[992]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:08:58 mail postfix[992]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:05 mail postfix[1006]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:05 mail postfix[1006]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:12 mail postfix[1017]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:12 mail postfix[1017]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:19 mail postfix[1031]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:19 mail postfix[1031]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:26 mail postfix[1052]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:26 mail postfix[1052]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:33 mail postfix[1063]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:33 mail postfix[1063]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:40 mail postfix[1077]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:40 mail postfix[1077]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:47 mail postfix[1088]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:47 mail postfix[1088]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:54 mail postfix[1102]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:09:54 mail postfix[1102]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:01 mail postfix[1120]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:01 mail postfix[1120]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:08 mail postfix[1134]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:08 mail postfix[1134]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:15 mail postfix[1145]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:15 mail postfix[1145]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:22 mail postfix[1159]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:22 mail postfix[1159]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:30 mail postfix[1177]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:30 mail postfix[1177]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:37 mail postfix[1191]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:37 mail postfix[1191]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:44 mail postfix[1202]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:44 mail postfix[1202]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:51 mail postfix[1216]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:51 mail postfix[1216]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:58 mail postfix[1234]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:10:58 mail postfix[1234]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:05 mail postfix[1248]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:05 mail postfix[1248]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:12 mail postfix[1259]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:12 mail postfix[1259]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:19 mail postfix[1273]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:19 mail postfix[1273]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:26 mail postfix[1294]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:26 mail postfix[1294]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:33 mail postfix[1305]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:33 mail postfix[1305]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:40 mail postfix[1319]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:40 mail postfix[1319]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:47 mail postfix[1330]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:47 mail postfix[1330]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:54 mail postfix[1344]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:11:54 mail postfix[1344]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:02 mail postfix[1362]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:02 mail postfix[1362]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:09 mail postfix[1376]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:09 mail postfix[1376]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:16 mail postfix[1387]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:16 mail postfix[1387]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:23 mail postfix[1401]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:23 mail postfix[1401]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:30 mail postfix[1419]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:30 mail postfix[1419]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:37 mail postfix[1433]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:37 mail postfix[1433]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:44 mail postfix[1444]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:44 mail postfix[1444]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:51 mail postfix[1458]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:51 mail postfix[1458]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:58 mail postfix[1476]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:12:58 mail postfix[1476]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:05 mail postfix[1490]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:05 mail postfix[1490]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:12 mail postfix[1501]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:12 mail postfix[1501]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:19 mail postfix[1515]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:19 mail postfix[1515]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:26 mail postfix[1533]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:26 mail postfix[1533]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:33 mail postfix[1547]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:33 mail postfix[1547]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:41 mail postfix[1561]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:41 mail postfix[1561]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:48 mail postfix[1572]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:48 mail postfix[1572]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:55 mail postfix[1586]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:13:55 mail postfix[1586]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:02 mail postfix[1605]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:02 mail postfix[1605]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:09 mail postfix[1619]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:09 mail postfix[1619]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:16 mail postfix[1630]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:16 mail postfix[1630]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:23 mail postfix[1644]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:23 mail postfix[1644]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:30 mail postfix[1662]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:30 mail postfix[1662]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:37 mail postfix[1676]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:37 mail postfix[1676]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:44 mail postfix[1687]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:44 mail postfix[1687]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:51 mail postfix[1701]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:51 mail postfix[1701]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:58 mail postfix[1719]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:14:58 mail postfix[1719]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:05 mail postfix[1733]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:05 mail postfix[1733]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:13 mail postfix[1744]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:13 mail postfix[1744]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:20 mail postfix[1758]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:20 mail postfix[1758]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:27 mail postfix[1776]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:27 mail postfix[1776]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:34 mail postfix[1790]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:34 mail postfix[1790]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:40 mail postfix[1803]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:40 mail postfix[1803]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:47 mail postfix[1817]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:47 mail postfix[1817]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:55 mail postfix[1828]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:15:55 mail postfix[1828]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:02 mail postfix[1849]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:02 mail postfix[1849]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:09 mail postfix[1861]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:09 mail postfix[1861]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:16 mail postfix[1955]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:16 mail postfix[1955]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:23 mail postfix[1966]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:23 mail postfix[1966]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:30 mail postfix[1987]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:30 mail postfix[1987]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:37 mail postfix[2001]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:37 mail postfix[2001]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:44 mail postfix[2012]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:44 mail postfix[2012]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:51 mail postfix[2026]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:51 mail postfix[2026]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:57 mail postfix[2051]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:16:57 mail postfix[2051]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:04 mail postfix[2065]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:04 mail postfix[2065]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:12 mail postfix[2079]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:12 mail postfix[2079]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:19 mail postfix[2090]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:19 mail postfix[2090]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:26 mail postfix[2104]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:26 mail postfix[2104]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:33 mail postfix[2122]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:33 mail postfix[2122]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:40 mail postfix[2136]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:40 mail postfix[2136]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:47 mail postfix[2147]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:47 mail postfix[2147]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:53 mail postfix[2160]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:17:53 mail postfix[2160]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:00 mail postfix[2181]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:00 mail postfix[2181]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:07 mail postfix[2192]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:07 mail postfix[2192]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:14 mail postfix[2206]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:14 mail postfix[2206]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:21 mail postfix[2217]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:21 mail postfix[2217]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:28 mail postfix[2238]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:28 mail postfix[2238]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:35 mail postfix[2249]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:35 mail postfix[2249]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:42 mail postfix[2263]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:42 mail postfix[2263]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:49 mail postfix[2274]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:49 mail postfix[2274]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:56 mail postfix[2288]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:18:56 mail postfix[2288]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:03 mail postfix[2309]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:03 mail postfix[2309]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:10 mail postfix[2320]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:10 mail postfix[2320]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:17 mail postfix[2334]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:17 mail postfix[2334]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:25 mail postfix[2345]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:25 mail postfix[2345]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:32 mail postfix[2366]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:32 mail postfix[2366]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:39 mail postfix[2377]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:39 mail postfix[2377]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:46 mail postfix[2391]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:46 mail postfix[2391]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:53 mail postfix[2402]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:19:53 mail postfix[2402]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:00 mail postfix[2423]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:00 mail postfix[2423]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:07 mail postfix[2434]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:07 mail postfix[2434]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:14 mail postfix[2448]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:14 mail postfix[2448]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:21 mail postfix[2459]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:21 mail postfix[2459]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:28 mail postfix[2488]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:28 mail postfix[2488]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:35 mail postfix[2499]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:35 mail postfix[2499]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:42 mail postfix[2513]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:42 mail postfix[2513]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:49 mail postfix[2524]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:49 mail postfix[2524]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:57 mail postfix[2538]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:20:57 mail postfix[2538]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:04 mail postfix[2559]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:04 mail postfix[2559]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:11 mail postfix[2571]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:11 mail postfix[2571]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:18 mail postfix[2586]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:18 mail postfix[2586]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:25 mail postfix[2597]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:25 mail postfix[2597]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:32 mail postfix[2618]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:32 mail postfix[2618]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:39 mail postfix[2629]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:39 mail postfix[2629]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:46 mail postfix[2643]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:46 mail postfix[2643]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:53 mail postfix[2654]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:21:53 mail postfix[2654]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:00 mail postfix[2675]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:00 mail postfix[2675]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:07 mail postfix[2686]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:07 mail postfix[2686]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:14 mail postfix[2700]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:14 mail postfix[2700]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:22 mail postfix[2711]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:22 mail postfix[2711]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:29 mail postfix[2732]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:29 mail postfix[2732]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:36 mail postfix[2743]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:36 mail postfix[2743]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:43 mail postfix[2757]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:43 mail postfix[2757]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:50 mail postfix[2768]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:50 mail postfix[2768]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:57 mail postfix[2782]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:22:57 mail postfix[2782]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:04 mail postfix[2803]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:04 mail postfix[2803]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:11 mail postfix[2814]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:11 mail postfix[2814]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:18 mail postfix[2828]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:18 mail postfix[2828]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:25 mail postfix[2839]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:25 mail postfix[2839]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:32 mail postfix[2860]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:32 mail postfix[2860]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:39 mail postfix[2871]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:39 mail postfix[2871]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:46 mail postfix[2885]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:46 mail postfix[2885]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:54 mail postfix[2896]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:23:54 mail postfix[2896]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:01 mail postfix[2917]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:01 mail postfix[2917]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:08 mail postfix[2928]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:08 mail postfix[2928]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:15 mail postfix[2942]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:15 mail postfix[2942]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:22 mail postfix[2953]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:22 mail postfix[2953]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:29 mail postfix[2974]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:29 mail postfix[2974]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:36 mail postfix[2985]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:36 mail postfix[2985]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:43 mail postfix[2999]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:43 mail postfix[2999]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:50 mail postfix[3010]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:50 mail postfix[3010]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:57 mail postfix[3024]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:24:57 mail postfix[3024]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:04 mail postfix[3042]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:04 mail postfix[3042]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:11 mail postfix[3056]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:11 mail postfix[3056]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:18 mail postfix[3070]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:18 mail postfix[3070]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:26 mail postfix[3081]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:26 mail postfix[3081]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:33 mail postfix[3102]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:33 mail postfix[3102]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:40 mail postfix[3113]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:40 mail postfix[3113]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:47 mail postfix[3127]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:47 mail postfix[3127]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:54 mail postfix[3138]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:25:54 mail postfix[3138]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:01 mail postfix[3159]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:01 mail postfix[3159]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:08 mail postfix[3170]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:08 mail postfix[3170]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:15 mail postfix[3184]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:15 mail postfix[3184]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:22 mail postfix[3195]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:22 mail postfix[3195]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:29 mail postfix[3216]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:29 mail postfix[3216]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:36 mail postfix[3227]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:36 mail postfix[3227]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:43 mail postfix[3241]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:43 mail postfix[3241]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:50 mail postfix[3252]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:50 mail postfix[3252]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:57 mail postfix[3266]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:26:57 mail postfix[3266]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:05 mail postfix[3285]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:05 mail postfix[3285]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:12 mail postfix[3299]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:12 mail postfix[3299]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:19 mail postfix[3313]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:19 mail postfix[3313]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:26 mail postfix[3324]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:26 mail postfix[3324]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:33 mail postfix[3345]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:33 mail postfix[3345]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:40 mail postfix[3356]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:40 mail postfix[3356]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:47 mail postfix[3370]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:47 mail postfix[3370]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:54 mail postfix[3381]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:27:54 mail postfix[3381]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:01 mail postfix[3402]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:01 mail postfix[3402]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:08 mail postfix[3413]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:08 mail postfix[3413]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:15 mail postfix[3427]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:15 mail postfix[3427]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:22 mail postfix[3438]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:22 mail postfix[3438]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:29 mail postfix[3459]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:29 mail postfix[3459]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:37 mail postfix[3470]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:37 mail postfix[3470]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:44 mail postfix[3484]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:44 mail postfix[3484]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:51 mail postfix[3495]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:51 mail postfix[3495]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:58 mail postfix[3509]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:28:58 mail postfix[3509]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:05 mail postfix[3527]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:05 mail postfix[3527]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:12 mail postfix[3541]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:12 mail postfix[3541]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:19 mail postfix[3553]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:19 mail postfix[3553]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:26 mail postfix[3566]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:26 mail postfix[3566]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:33 mail postfix[3587]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:33 mail postfix[3587]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:40 mail postfix[3598]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:40 mail postfix[3598]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:47 mail postfix[3612]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:47 mail postfix[3612]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:54 mail postfix[3623]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:29:54 mail postfix[3623]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:01 mail postfix[3644]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:01 mail postfix[3644]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:08 mail postfix[3655]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:08 mail postfix[3655]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:16 mail postfix[3669]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:16 mail postfix[3669]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:23 mail postfix[3680]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:23 mail postfix[3680]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:30 mail postfix[3701]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:30 mail postfix[3701]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:37 mail postfix[3712]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:37 mail postfix[3712]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:44 mail postfix[3726]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:44 mail postfix[3726]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:51 mail postfix[3737]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:51 mail postfix[3737]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:58 mail postfix[3751]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:30:58 mail postfix[3751]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:05 mail postfix[3769]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:05 mail postfix[3769]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:12 mail postfix[3783]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:12 mail postfix[3783]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:19 mail postfix[3794]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:19 mail postfix[3794]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:26 mail postfix[3808]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:26 mail postfix[3808]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:33 mail postfix[3829]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:33 mail postfix[3829]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:40 mail postfix[3840]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:40 mail postfix[3840]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:47 mail postfix[3854]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:47 mail postfix[3854]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:55 mail postfix[3865]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:31:55 mail postfix[3865]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:02 mail postfix[3886]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:02 mail postfix[3886]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:09 mail postfix[3897]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:09 mail postfix[3897]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:16 mail postfix[3911]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:16 mail postfix[3911]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:23 mail postfix[3922]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:23 mail postfix[3922]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:30 mail postfix[3943]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:30 mail postfix[3943]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:37 mail postfix[3954]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:37 mail postfix[3954]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:44 mail postfix[3968]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:44 mail postfix[3968]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:51 mail postfix[3979]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:51 mail postfix[3979]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:58 mail postfix[3993]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:32:58 mail postfix[3993]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:05 mail postfix[4011]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:05 mail postfix[4011]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:12 mail postfix[4025]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:12 mail postfix[4025]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:19 mail postfix[4036]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:19 mail postfix[4036]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:27 mail postfix[4050]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:27 mail postfix[4050]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:34 mail postfix[4068]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:34 mail postfix[4068]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:41 mail postfix[4082]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:41 mail postfix[4082]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:48 mail postfix[4096]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:48 mail postfix[4096]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:55 mail postfix[4107]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:33:55 mail postfix[4107]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:02 mail postfix[4128]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:02 mail postfix[4128]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:09 mail postfix[4139]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:09 mail postfix[4139]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:16 mail postfix[4153]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:16 mail postfix[4153]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:23 mail postfix[4164]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:23 mail postfix[4164]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:30 mail postfix[4185]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:30 mail postfix[4185]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:37 mail postfix[4196]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:37 mail postfix[4196]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:44 mail postfix[4210]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:44 mail postfix[4210]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:51 mail postfix[4221]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:51 mail postfix[4221]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:59 mail postfix[4235]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:34:59 mail postfix[4235]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:06 mail postfix[4253]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:06 mail postfix[4253]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:13 mail postfix[4267]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:13 mail postfix[4267]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:20 mail postfix[4278]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:20 mail postfix[4278]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:27 mail postfix[4292]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:27 mail postfix[4292]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:34 mail postfix[4310]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:34 mail postfix[4310]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:41 mail postfix[4324]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:41 mail postfix[4324]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:48 mail postfix[4338]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:48 mail postfix[4338]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:55 mail postfix[4349]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:35:55 mail postfix[4349]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:02 mail postfix[4370]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:02 mail postfix[4370]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:09 mail postfix[4381]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:09 mail postfix[4381]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:16 mail postfix[4395]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:16 mail postfix[4395]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:23 mail postfix[4406]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:23 mail postfix[4406]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:31 mail postfix[4427]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:31 mail postfix[4427]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:38 mail postfix[4438]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:38 mail postfix[4438]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:45 mail postfix[4452]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:45 mail postfix[4452]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:52 mail postfix[4463]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:52 mail postfix[4463]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:59 mail postfix[4477]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:36:59 mail postfix[4477]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:06 mail postfix[4495]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:06 mail postfix[4495]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:13 mail postfix[4509]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:13 mail postfix[4509]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:20 mail postfix[4520]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:20 mail postfix[4520]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:27 mail postfix[4534]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:27 mail postfix[4534]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:34 mail postfix[4552]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:34 mail postfix[4552]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:41 mail postfix[4566]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:41 mail postfix[4566]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:48 mail postfix[4580]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:48 mail postfix[4580]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:56 mail postfix[4591]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:37:56 mail postfix[4591]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:03 mail postfix[4612]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:03 mail postfix[4612]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:10 mail postfix[4623]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:10 mail postfix[4623]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:17 mail postfix[4637]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:17 mail postfix[4637]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:24 mail postfix[4648]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:24 mail postfix[4648]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:31 mail postfix[4669]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:31 mail postfix[4669]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:38 mail postfix[4680]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:38 mail postfix[4680]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:45 mail postfix[4694]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:45 mail postfix[4694]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:52 mail postfix[4705]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:52 mail postfix[4705]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:59 mail postfix[4719]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:38:59 mail postfix[4719]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:06 mail postfix[4738]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:06 mail postfix[4738]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:13 mail postfix[4752]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:13 mail postfix[4752]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:20 mail postfix[4763]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:20 mail postfix[4763]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:27 mail postfix[4777]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:27 mail postfix[4777]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:35 mail postfix[4795]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:35 mail postfix[4795]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:42 mail postfix[4809]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:42 mail postfix[4809]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:49 mail postfix[4823]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:49 mail postfix[4823]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:56 mail postfix[4834]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:39:56 mail postfix[4834]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:03 mail postfix[4855]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:03 mail postfix[4855]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:10 mail postfix[4866]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:10 mail postfix[4866]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:17 mail postfix[4880]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:17 mail postfix[4880]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:24 mail postfix[4891]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:24 mail postfix[4891]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:31 mail postfix[4912]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:31 mail postfix[4912]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:38 mail postfix[4923]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:38 mail postfix[4923]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:45 mail postfix[4937]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:45 mail postfix[4937]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:52 mail postfix[4948]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:52 mail postfix[4948]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:59 mail postfix[4962]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:40:59 mail postfix[4962]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:07 mail postfix[4980]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:07 mail postfix[4980]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:14 mail postfix[4994]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:14 mail postfix[4994]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:21 mail postfix[5005]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:21 mail postfix[5005]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:28 mail postfix[5019]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:28 mail postfix[5019]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:35 mail postfix[5037]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:35 mail postfix[5037]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:42 mail postfix[5051]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:42 mail postfix[5051]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:49 mail postfix[5065]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:49 mail postfix[5065]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:56 mail postfix[5076]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:41:56 mail postfix[5076]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:03 mail postfix[5097]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:03 mail postfix[5097]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:10 mail postfix[5108]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:10 mail postfix[5108]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:17 mail postfix[5122]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:17 mail postfix[5122]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:24 mail postfix[5133]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:24 mail postfix[5133]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:32 mail postfix[5154]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:32 mail postfix[5154]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:39 mail postfix[5165]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:39 mail postfix[5165]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:46 mail postfix[5179]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:46 mail postfix[5179]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:53 mail postfix[5190]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:42:53 mail postfix[5190]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:00 mail postfix[5204]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:00 mail postfix[5204]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:07 mail postfix[5222]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:07 mail postfix[5222]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:14 mail postfix[5236]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:14 mail postfix[5236]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:21 mail postfix[5247]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:21 mail postfix[5247]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:28 mail postfix[5261]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:28 mail postfix[5261]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:35 mail postfix[5279]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:35 mail postfix[5279]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:42 mail postfix[5293]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:42 mail postfix[5293]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:49 mail postfix[5307]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:49 mail postfix[5307]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:56 mail postfix[5318]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:43:56 mail postfix[5318]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:03 mail postfix[5339]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:03 mail postfix[5339]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:11 mail postfix[5350]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:11 mail postfix[5350]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:18 mail postfix[5364]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:18 mail postfix[5364]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:25 mail postfix[5375]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:25 mail postfix[5375]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:32 mail postfix[5396]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:32 mail postfix[5396]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:39 mail postfix[5407]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:39 mail postfix[5407]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:46 mail postfix[5421]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:46 mail postfix[5421]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:53 mail postfix[5432]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:44:53 mail postfix[5432]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:00 mail postfix[5446]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:00 mail postfix[5446]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:07 mail postfix[5469]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:07 mail postfix[5469]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:14 mail postfix[5488]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:14 mail postfix[5488]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:21 mail postfix[5499]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:21 mail postfix[5499]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:28 mail postfix[5518]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:28 mail postfix[5518]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:35 mail postfix[5537]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:35 mail postfix[5537]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:43 mail postfix[5552]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:43 mail postfix[5552]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:50 mail postfix[5566]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:50 mail postfix[5566]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:57 mail postfix[5578]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:45:57 mail postfix[5578]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:04 mail postfix[5599]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:04 mail postfix[5599]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:11 mail postfix[5611]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:11 mail postfix[5611]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:18 mail postfix[5625]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:18 mail postfix[5625]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:25 mail postfix[5636]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:25 mail postfix[5636]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:32 mail postfix[5657]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:32 mail postfix[5657]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:39 mail postfix[5668]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:39 mail postfix[5668]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:46 mail postfix[5682]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:46 mail postfix[5682]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:53 mail postfix[5693]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:46:53 mail postfix[5693]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:00 mail postfix[5707]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:00 mail postfix[5707]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:07 mail postfix[5725]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:07 mail postfix[5725]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:15 mail postfix[5739]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:15 mail postfix[5739]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:22 mail postfix[5750]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:22 mail postfix[5750]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:29 mail postfix[5764]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:29 mail postfix[5764]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:36 mail postfix[5782]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:36 mail postfix[5782]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:43 mail postfix[5796]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:43 mail postfix[5796]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:50 mail postfix[5807]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:50 mail postfix[5807]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:57 mail postfix[5821]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:47:57 mail postfix[5821]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:04 mail postfix[5842]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:04 mail postfix[5842]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:11 mail postfix[5853]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:11 mail postfix[5853]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:18 mail postfix[5867]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:18 mail postfix[5867]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:25 mail postfix[5878]: warning: valid_hostname: misplaced delimiter: mail.l1-1.ephec-ti.be.
+Apr  4 13:48:25 mail postfix[5878]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: mail.l1-1.ephec-ti.be.
