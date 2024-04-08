@@ -1,0 +1,68 @@
+Return-Path: <loui.huybrechts@gmail.com>
+Delivered-To: mateo@l1-1.ephec-ti.be
+Received: from mail.l1-1.ephec-ti.be
+	by mail.l1-1.ephec-ti.be with LMTP
+	id 7IQYKyDaE2ZjBAAAS2BY4g
+	(envelope-from <loui.huybrechts@gmail.com>)
+	for <mateo@l1-1.ephec-ti.be>; Mon, 08 Apr 2024 11:50:56 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by mail.l1-1.ephec-ti.be (Postfix) with ESMTP id A1E6E68614
+	for <mateo@l1-1.ephec-ti.be>; Mon,  8 Apr 2024 11:50:56 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=209.85.208.52; helo=mail-ed1-f52.google.com; envelope-from=loui.huybrechts@gmail.com; receiver=<UNKNOWN> 
+Authentication-Results: mail.l1-1.ephec-ti.be; dmarc=pass (p=none dis=none) header.from=gmail.com
+Authentication-Results: mail.l1-1.ephec-ti.be;
+	dkim=pass (2048-bit key; unprotected) header.d=gmail.com header.i=@gmail.com header.a=rsa-sha256 header.s=20230601 header.b=OsfP2QPM;
+	dkim-atps=neutral
+Received: from mail-ed1-f52.google.com (mail-ed1-f52.google.com [209.85.208.52])
+	by mail.l1-1.ephec-ti.be (Postfix) with ESMTPS id 4B2C6685FC
+	for <mateo@l1-1.ephec-ti.be>; Mon,  8 Apr 2024 11:50:55 +0000 (UTC)
+Received: by mail-ed1-f52.google.com with SMTP id 4fb4d7f45d1cf-5684db9147dso5771617a12.2
+        for <mateo@l1-1.ephec-ti.be>; Mon, 08 Apr 2024 04:50:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1712576989; x=1713181789; darn=l1-1.ephec-ti.be;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=LExCoh6T2Zixm7ti47YPUqc+lpWZIt2ZJHsVpgoXC5o=;
+        b=OsfP2QPMgEV16s/TTJXdJl20M72Q7YOy85K2ImUEWA0O0/w/hgDN0xhGaPA6ryqqSU
+         ZD5JF5BD11Fv+cHBEUINvjCf38xd4cnaU88jmBstxsKYncVWb9/D0nOvg/OLUs9WlLrp
+         yeFgVYCRMK085QIZp4s8kEJzan9TJvkPGt9/x6oHLctpLuaQFpL9JGEOEYNwHuCA/AQN
+         12TTgpQMmIgIozQz2rFwEWKsSCizb2EXLUQHn/mGsC5ByOO8SC/DGTtShZt6+a73EU83
+         GEvIneMXECOoloV2/BEUzzAprFmpSmmjZvw0xjIvdKTi64ibfsyCCh6Z7GPrf4Hhk5ZQ
+         v+1w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1712576989; x=1713181789;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=LExCoh6T2Zixm7ti47YPUqc+lpWZIt2ZJHsVpgoXC5o=;
+        b=EIv/5JxYLgMLLUgwT9ks8kFmPjUCaI6ItqS9eUFXSC8cobDk8F2yCHzajfSJ9LanBL
+         fQQFAJYwm8cccXv1V1WNOIiMHw9usBzeCxq9zcV8Ydle9PhLWYPzipSYKx0zQNT1b0Df
+         YM/ARXuuAUN36dcIpO+RqOYC33u+AyL0iiX76sbICLV5Alku1f4usLZJiSNCY/gBtSEv
+         xvEcoNBzksCvqeVJOJGakFXov8Skx5Vyg/nuLBuKdkAFGae2TNlFx3xvviye2bzeYFTj
+         qcXjeE3GxGJtc+Bz4U5O/XRX9xGbg7Je39rYDqnmPr8mYPhYStC1qsdAPEwIwMsB4bHH
+         dhWw==
+X-Gm-Message-State: AOJu0Yz36nYW8DcOziefmQRb31MkR4r/ywfVzQBZ7Mo4P3Eiyv8aIAV7
+	9Sr4iopbzbrQEx330iWueen4Bjbqg0pKLnJ75OyzXAJqX/u87w/Rcj+mH/8MqXRy9QEB/vAtRv/
+	qSHA8DXieJCf3tcAwswO3JtNRcyNQYSGc
+X-Google-Smtp-Source: AGHT+IEHDazvdwZolN4cxCLfdXt2FgDmyw+hUvy9iTayLNWNRCBH1/O19L7Owp1n+jIjnyOxhrFEH+t11r6D/HJPDms=
+X-Received: by 2002:a50:9f46:0:b0:566:4aa9:7143 with SMTP id
+ b64-20020a509f46000000b005664aa97143mr6198841edf.14.1712576988943; Mon, 08
+ Apr 2024 04:49:48 -0700 (PDT)
+MIME-Version: 1.0
+From: Louis Huybrechts <loui.huybrechts@gmail.com>
+Date: Mon, 8 Apr 2024 13:49:36 +0200
+Message-ID: <CALuddbY3nZzVKGXSpNu8pJBSKK2VJLz2X+Lu_J1R1mDVLwPweA@mail.gmail.com>
+Subject: Test
+To: mateo@l1-1.ephec-ti.be
+Content-Type: multipart/alternative; boundary="000000000000139af6061594672e"
+
+--000000000000139af6061594672e
+Content-Type: text/plain; charset="UTF-8"
+
+test
+
+--000000000000139af6061594672e
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">test</div>
+
+--000000000000139af6061594672e--
