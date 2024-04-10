@@ -41,3 +41,212 @@ Apr  8 12:16:05 mail postfix/submissions/smtpd[3800]: warning: hostname 65.ephec
 Apr  8 12:20:56 mail postfix/submissions/smtpd[4341]: warning: hostname 65.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
 Apr  8 12:24:10 mail postfix/submissions/smtpd[4596]: warning: hostname 65.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
 Apr  8 12:31:03 mail postfix/submissions/smtpd[5450]: warning: hostname 65.ephec.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
+Apr  8 13:53:57 mail postfix/smtpd[1932]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1562:SSL alert number 42:
+Apr  8 16:43:04 mail postfix/submissions/smtpd[19573]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  8 16:43:05 mail postfix/submissions/smtpd[19573]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  8 16:43:06 mail postfix/submissions/smtpd[19573]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr  8 18:19:09 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr  8 18:20:15 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  8 18:21:54 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr  8 18:22:27 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr  9 01:42:59 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:140940F5:SSL routines:ssl3_read_bytes:unexpected record:../ssl/record/rec_layer_s3.c:1722:
+Apr  9 01:43:04 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr  9 01:43:04 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  9 01:43:05 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr  9 01:43:06 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr  9 01:43:06 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  9 01:43:06 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:142090FC:SSL routines:tls_early_post_process_client_hello:unknown protocol:../ssl/statem/statem_srvr.c:1659:
+Apr  9 01:43:07 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr  9 01:43:07 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  9 01:43:10 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr  9 01:43:11 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr  9 02:00:36 mail postfix/submission/smtpd[12694]: warning: hostname apzg-0721o-056.stretchoid.com does not resolve to address 162.243.137.35
+Apr  9 06:23:06 mail postfix/submission/smtpd[7581]: warning: non-SMTP command from unknown[198.235.24.200]: GET / HTTP/1.1
+Apr  9 06:32:46 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr  9 06:32:50 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  9 06:32:56 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr  9 06:32:58 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr  9 06:50:54 mail postfix/submissions/smtpd[10600]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr  9 08:05:18 mail postfix/submissions/smtpd[18348]: warning: hostname apzg-0721n-072.stretchoid.com does not resolve to address 192.241.230.45
+Apr  9 08:05:18 mail postfix/submissions/smtpd[18348]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr  9 09:29:01 mail postfix/submissions/smtpd[27070]: warning: hostname apzg-0721-a-167.stretchoid.com does not resolve to address 192.241.227.62
+Apr  9 09:29:01 mail postfix/submissions/smtpd[27070]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr  9 09:52:32 mail postfix/submission/smtpd[29521]: warning: hostname apzg-0729a-138.stretchoid.com does not resolve to address 107.170.253.28
+Apr  9 16:14:36 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
+Apr  9 16:14:42 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
+Apr  9 16:14:44 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
+Apr  9 16:14:46 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
+Apr  9 16:14:48 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
+Apr  9 18:14:59 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:02 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:03 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:03 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:04 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:05 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:06 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:07 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:09 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:10 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:11 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:13 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:14 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:15 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:16 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:16 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:17 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:18 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:19 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:20 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:21 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:22 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:22 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:23 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:25 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:26 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:27 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:28 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:29 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:30 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:31 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:32 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:33 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:33 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:34 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:35 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:36 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:37 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:38 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:38 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:39 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:40 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:41 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:42 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:43 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:43 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:44 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:45 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:46 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:47 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:48 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:49 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:50 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:51 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:52 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:53 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:53 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:54 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:55 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:56 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:57 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:57 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:58 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:15:59 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:00 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:01 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:02 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:03 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:04 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:05 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:06 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:07 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:09 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:10 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:13 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:14 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:15 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:16 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:17 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:17 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:18 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:19 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:20 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:20 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:21 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:22 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:23 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:24 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:25 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:25 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:26 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:27 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:28 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:29 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:30 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:31 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:32 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:33 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:33 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:35 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:36 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:37 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:38 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:39 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:40 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:41 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:42 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:42 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:43 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:44 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:46 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:46 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:47 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:48 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:49 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:50 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:52 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:52 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:54 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:55 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:56 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:56 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:57 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:58 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:16:59 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:01 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:02 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:03 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:04 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:04 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:05 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:06 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:07 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:08 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:09 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:10 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:11 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:12 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:12 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:13 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:14 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:15 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:16 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:17 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:18 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:18 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:19 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:20 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:21 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:21 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 18:17:22 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
+Apr  9 19:08:25 mail postfix/submissions/smtpd[22774]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  9 19:08:27 mail postfix/submissions/smtpd[22774]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr  9 19:08:32 mail postfix/submissions/smtpd[22774]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr  9 21:37:01 mail postfix/submissions/smtpd[5828]: warning: hostname apzg-0721p-028.stretchoid.com does not resolve to address 192.241.230.53
+Apr  9 21:37:01 mail postfix/submissions/smtpd[5828]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr  9 21:44:00 mail postfix/submission/smtpd[6556]: warning: non-SMTP command from unknown[198.235.24.9]: GET / HTTP/1.1
+Apr 10 02:18:06 mail postfix/submission/smtpd[2662]: warning: non-SMTP command from unknown[138.197.142.113]: GET / HTTP/1.1
+Apr 10 06:31:55 mail postfix/submissions/smtpd[29075]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 10 06:31:57 mail postfix/submissions/smtpd[29075]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 10 06:32:00 mail postfix/submissions/smtpd[29075]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 10 08:11:06 mail postfix/submissions/smtpd[7012]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 10 09:47:09 mail postfix/smtpd[17017]: warning: hostname tumndes.com does not resolve to address 165.154.59.118
+Apr 10 09:47:28 mail postfix/smtpd[17017]: warning: hostname tumndes.com does not resolve to address 165.154.59.118
+Apr 10 10:54:29 mail postfix/submission/smtpd[1917]: warning: hostname azpg-0725m-096.stretchoid.com does not resolve to address 198.199.93.54
