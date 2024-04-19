@@ -3,7 +3,7 @@ $TTL 86400	; 1 day
 @	IN	SOA	ns.l1-1.ephec-ti.be.    mail.l1-1.ephec-ti.be. (
 			2001062511 ; serial
                         21600      ; refresh (6 hours)
-                        3600        ; retry (15 minutes)
+                        3600       ; retry (15 minutes)
                         604800     ; expire (1 week)
                         86400 )    ; minimum (1 day)
 
@@ -16,7 +16,7 @@ l1-1.ephec-ti.be.       IN      TXT "v=spf1 mx -all"
 mail._domainkey         IN      TXT  ( "v=DKIM1; h=sha256; k=rsa; "
           "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwVnGRrbWN6cavK5MQqTMVcB7JIPsmYre1GA7AhJSDR+vSYhgJOTEFCYxfaaGHTxZMwb9E3PeSanxPoaiXV2ZTY3Hw0y9dHBlnlv6u5hujhlVrslEeaLiqrw8wUrXHdNbKm0MG8UcKq1ewsD+FoQEnVgXQZ9Pi1dAtTAtEOmFYOV7ml5fRXbOluMUtkmsoQ/+n7Zep5Da8jg2Wh"
           "VETj0VGKGczA7sbcBASxChtr2PD2o7icLmh2w6NBsF1fk+D89WRcTnTFZqluFRIY/hsFqXtWTA6wcGq/NFBhtCtrUKLjWEp1sy16Db1J+HwgRVt+fNll4B7JiFu6BItCWVejL06wIDAQAB" )
-_dmarc.l1-1.ephec-ti.be.        IN      TXT "v=DMARC1; p=reject; rua=mailto:hugo@l1-1.ephec-ti.be; ruf=mailto:hugo@l1-1.ephec-ti.be; sp=none; ri=86400"
+_dmarc.l1-1.ephec-ti.be.        IN      TXT "v=DMARC1; p=quarantine; rua=mailto:postmaster@l1-1.ephec-ti.be; ruf=mailto:postmaster@l1-1.ephec-ti.be; sp=none; ri=86400"
 
 github  IN      CNAME   https://github.com/Correba/T206.
 

@@ -1,252 +1,527 @@
-Apr  7 10:25:06 mail postfix/smtpd[8390]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.23: Name or service not known
-Apr  7 10:25:09 mail postfix/smtpd[8390]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.23: Name or service not known
-Apr  7 10:25:11 mail postfix/smtpd[8390]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.23: Name or service not known
-Apr  7 10:25:13 mail postfix/smtpd[8390]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.23: Name or service not known
-Apr  7 10:25:15 mail postfix/smtpd[8390]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.23: Name or service not known
-Apr  7 18:20:26 mail postfix/submission/smtpd[25423]: warning: hostname centos7134235.aspadmin.net does not resolve to address 71.6.134.235: Name or service not known
-Apr  7 20:38:48 mail postfix/submissions/smtpd[7375]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  7 20:38:49 mail postfix/submissions/smtpd[7375]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  7 20:38:51 mail postfix/submissions/smtpd[7375]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
-Apr  7 23:01:56 mail postfix/submissions/smtpd[22282]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
-Apr  7 23:17:26 mail postfix/submission/smtpd[23894]: warning: non-SMTP command from unknown[205.210.31.152]: GET / HTTP/1.1
-Apr  8 01:16:19 mail postfix/submission/smtpd[3834]: warning: hostname apzg-0721-a-053.stretchoid.com does not resolve to address 159.203.224.36
-Apr  8 04:52:28 mail postfix/submission/smtpd[26335]: warning: hostname apzg-0721-a-059.stretchoid.com does not resolve to address 198.199.101.22
-Apr  8 07:23:59 mail postfix/submissions/smtpd[9734]: warning: hostname apzg-0729a-098.stretchoid.com does not resolve to address 162.243.143.49
-Apr  8 07:23:59 mail postfix/submissions/smtpd[9734]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
-Apr  8 07:53:02 mail postfix/submissions/smtpd[12747]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 07:53:05 mail postfix/submissions/smtpd[12747]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 07:53:06 mail postfix/submissions/smtpd[12747]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
-Apr  8 09:04:55 mail postfix/smtpd[20227]: warning: hostname internettl.org does not resolve to address 104.152.52.237
-Apr  8 11:05:19 mail postfix/submissions/smtpd[32761]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
-Apr  8 11:05:31 mail postfix/submissions/smtpd[32761]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  8 11:05:32 mail postfix/submissions/smtpd[32761]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 11:05:33 mail postfix/submissions/smtpd[32761]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
-Apr  8 11:05:34 mail postfix/submissions/smtpd[32761]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
-Apr  8 11:43:35 mail postfix/submission/smtpd[4334]: warning: hostname apzg-0721n-047.stretchoid.com does not resolve to address 192.241.193.128
-Apr  8 11:47:51 mail postfix/master[755]: warning: duplicate master.cf entry for service "policyd-spf" (private/policyd-spf) -- using the last entry
-Apr  8 11:47:51 mail postfix/master[755]: warning: duplicate master.cf entry for service "smtp-amavis" (private/smtp-amavis) -- using the last entry
-Apr  8 11:47:51 mail postfix/master[755]: warning: duplicate master.cf entry for service "127.0.0.1:10025" ([127.0.0.1]:10025) -- using the last entry
-Apr  8 11:47:51 mail postfix/master[755]: warning: duplicate master.cf entry for service "policyd-spf" (private/policyd-spf) -- using the last entry
-Apr  8 11:47:51 mail postfix/master[755]: warning: duplicate master.cf entry for service "smtp-amavis" (private/smtp-amavis) -- using the last entry
-Apr  8 11:47:51 mail postfix/master[755]: warning: duplicate master.cf entry for service "127.0.0.1:10025" ([127.0.0.1]:10025) -- using the last entry
-Apr  8 12:08:30 mail postfix/submissions/smtpd[2957]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  8 12:08:31 mail postfix/submissions/smtpd[2957]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 12:08:33 mail postfix/submissions/smtpd[2957]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
-Apr  8 12:08:33 mail postfix/submissions/smtpd[2957]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
-Apr  8 12:13:31 mail postfix/submissions/smtpd[3516]: warning: hostname 65.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 12:13:32 mail postfix/submission/smtpd[3517]: warning: hostname 65.ephec.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 12:13:32 mail postfix/submission/smtpd[3520]: warning: hostname 65.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 12:13:32 mail postfix/submissions/smtpd[3521]: warning: hostname 75.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.75: Name or service not known
-Apr  8 12:16:05 mail postfix/submissions/smtpd[3800]: warning: hostname 65.ephec.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 12:20:56 mail postfix/submissions/smtpd[4341]: warning: hostname 65.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 12:24:10 mail postfix/submissions/smtpd[4596]: warning: hostname 65.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 12:31:03 mail postfix/submissions/smtpd[5450]: warning: hostname 65.ephec.65.190.193.in-addr.arpa does not resolve to address 193.190.65.65: Name or service not known
-Apr  8 13:53:57 mail postfix/smtpd[1932]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1562:SSL alert number 42:
-Apr  8 16:43:04 mail postfix/submissions/smtpd[19573]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 16:43:05 mail postfix/submissions/smtpd[19573]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 16:43:06 mail postfix/submissions/smtpd[19573]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
-Apr  8 18:19:09 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  8 18:20:15 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  8 18:21:54 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
-Apr  8 18:22:27 mail postfix/submissions/smtpd[29318]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
-Apr  9 01:42:59 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:140940F5:SSL routines:ssl3_read_bytes:unexpected record:../ssl/record/rec_layer_s3.c:1722:
-Apr  9 01:43:04 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  9 01:43:04 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  9 01:43:05 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
-Apr  9 01:43:06 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
-Apr  9 01:43:06 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  9 01:43:06 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:142090FC:SSL routines:tls_early_post_process_client_hello:unknown protocol:../ssl/statem/statem_srvr.c:1659:
-Apr  9 01:43:07 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
-Apr  9 01:43:07 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  9 01:43:10 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  9 01:43:11 mail postfix/submissions/smtpd[10860]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  9 02:00:36 mail postfix/submission/smtpd[12694]: warning: hostname apzg-0721o-056.stretchoid.com does not resolve to address 162.243.137.35
-Apr  9 06:23:06 mail postfix/submission/smtpd[7581]: warning: non-SMTP command from unknown[198.235.24.200]: GET / HTTP/1.1
-Apr  9 06:32:46 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
-Apr  9 06:32:50 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  9 06:32:56 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
-Apr  9 06:32:58 mail postfix/submissions/smtpd[8591]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
-Apr  9 06:50:54 mail postfix/submissions/smtpd[10600]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
-Apr  9 08:05:18 mail postfix/submissions/smtpd[18348]: warning: hostname apzg-0721n-072.stretchoid.com does not resolve to address 192.241.230.45
-Apr  9 08:05:18 mail postfix/submissions/smtpd[18348]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
-Apr  9 09:29:01 mail postfix/submissions/smtpd[27070]: warning: hostname apzg-0721-a-167.stretchoid.com does not resolve to address 192.241.227.62
-Apr  9 09:29:01 mail postfix/submissions/smtpd[27070]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
-Apr  9 09:52:32 mail postfix/submission/smtpd[29521]: warning: hostname apzg-0729a-138.stretchoid.com does not resolve to address 107.170.253.28
-Apr  9 16:14:36 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
-Apr  9 16:14:42 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
-Apr  9 16:14:44 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
-Apr  9 16:14:46 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
-Apr  9 16:14:48 mail postfix/submission/smtpd[4526]: warning: hostname scanner-201.hk2.censys-scanner.com does not resolve to address 199.45.154.21: Name or service not known
-Apr  9 18:14:59 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:02 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:03 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:03 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:04 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:05 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:06 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:07 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:09 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:10 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:11 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:13 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:14 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:15 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:16 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:16 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:17 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:18 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:19 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:20 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:21 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:22 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:22 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:23 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:25 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:26 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:27 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:28 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:29 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:30 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:31 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:32 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:33 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:33 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:34 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:35 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:36 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:37 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:38 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:38 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:39 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:40 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:41 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:42 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:43 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:43 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:44 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:45 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:46 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:47 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:48 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:49 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:50 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:51 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:52 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:53 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:53 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:54 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:55 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:56 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:57 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:57 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:58 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:15:59 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:00 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:01 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:02 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:03 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:04 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:05 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:06 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:07 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:08 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:09 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:10 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:12 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:13 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:14 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:15 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:16 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:17 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:17 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:18 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:19 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:20 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:20 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:21 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:22 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:23 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:24 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:25 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:25 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:26 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:27 mail postfix/submission/smtpd[17214]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:28 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:29 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:30 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:31 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:32 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:33 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:33 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:35 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:36 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:37 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:38 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:39 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:40 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:41 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:42 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:42 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:43 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:44 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:46 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:46 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:47 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:48 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:49 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:50 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:52 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:52 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:54 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:55 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:56 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:56 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:57 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:58 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:16:59 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:01 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:02 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:03 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:04 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:04 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:05 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:06 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:07 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:08 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:09 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:10 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:11 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:12 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:12 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:13 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:14 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:15 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:16 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:17 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:18 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:18 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:19 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:20 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:21 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:21 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 18:17:22 mail postfix/submission/smtpd[17375]: warning: hostname customer-mred-181.static.metrored.net.mx does not resolve to address 187.187.228.181: Name or service not known
-Apr  9 19:08:25 mail postfix/submissions/smtpd[22774]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  9 19:08:27 mail postfix/submissions/smtpd[22774]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr  9 19:08:32 mail postfix/submissions/smtpd[22774]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
-Apr  9 21:37:01 mail postfix/submissions/smtpd[5828]: warning: hostname apzg-0721p-028.stretchoid.com does not resolve to address 192.241.230.53
-Apr  9 21:37:01 mail postfix/submissions/smtpd[5828]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
-Apr  9 21:44:00 mail postfix/submission/smtpd[6556]: warning: non-SMTP command from unknown[198.235.24.9]: GET / HTTP/1.1
-Apr 10 02:18:06 mail postfix/submission/smtpd[2662]: warning: non-SMTP command from unknown[138.197.142.113]: GET / HTTP/1.1
-Apr 10 06:31:55 mail postfix/submissions/smtpd[29075]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr 10 06:31:57 mail postfix/submissions/smtpd[29075]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
-Apr 10 06:32:00 mail postfix/submissions/smtpd[29075]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
-Apr 10 08:11:06 mail postfix/submissions/smtpd[7012]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
-Apr 10 09:47:09 mail postfix/smtpd[17017]: warning: hostname tumndes.com does not resolve to address 165.154.59.118
-Apr 10 09:47:28 mail postfix/smtpd[17017]: warning: hostname tumndes.com does not resolve to address 165.154.59.118
-Apr 10 10:54:29 mail postfix/submission/smtpd[1917]: warning: hostname azpg-0725m-096.stretchoid.com does not resolve to address 198.199.93.54
+Apr 14 06:49:37 mail postfix/submissions/smtpd[14007]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 14 08:33:01 mail postfix/submission/smtpd[24752]: warning: non-SMTP command from unknown[198.235.24.110]: GET / HTTP/1.1
+Apr 14 09:25:57 mail postfix/submissions/smtpd[30273]: warning: hostname apzg-0727-m-000.stretchoid.com does not resolve to address 162.243.143.21
+Apr 14 09:25:57 mail postfix/submissions/smtpd[30273]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 14 11:08:54 mail postfix/submissions/smtpd[8538]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr 14 11:08:55 mail postfix/submissions/smtpd[8538]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 14 11:09:27 mail postfix/submissions/smtpd[8538]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr 14 11:09:28 mail postfix/submissions/smtpd[8538]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr 14 16:03:12 mail postfix/submission/smtpd[7326]: warning: hostname apzg-0720c-088.stretchoid.com does not resolve to address 198.199.102.7
+Apr 14 18:35:29 mail postfix/submission/smtpd[23183]: warning: hostname apzg-0727-m-041.stretchoid.com does not resolve to address 192.241.239.10
+Apr 14 18:48:17 mail postfix/submissions/smtpd[24535]: warning: hostname apzg-0721-a-151.stretchoid.com does not resolve to address 162.243.150.39
+Apr 14 18:48:17 mail postfix/submissions/smtpd[24535]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 14 21:14:09 mail postfix/submissions/smtpd[7245]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 14 22:43:13 mail postfix/submissions/smtpd[16554]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 15 05:30:32 mail postfix/submission/smtpd[26514]: warning: hostname security.criminalip.com does not resolve to address 185.242.226.23
+Apr 15 06:09:50 mail postfix/submission/smtpd[30593]: warning: non-SMTP command from unknown[205.210.31.78]: GET / HTTP/1.1
+Apr 15 07:40:08 mail postfix/submission/smtpd[7749]: warning: hostname apzg-0721-a-144.stretchoid.com does not resolve to address 107.170.247.45
+Apr 15 07:57:53 mail postfix/smtpd[9595]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.65: Name or service not known
+Apr 15 07:58:02 mail postfix/smtpd[9595]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.65: Name or service not known
+Apr 15 07:58:05 mail postfix/smtpd[9595]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.65: Name or service not known
+Apr 15 07:58:07 mail postfix/smtpd[9595]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.65: Name or service not known
+Apr 15 07:58:09 mail postfix/smtpd[9595]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.65: Name or service not known
+Apr 15 11:52:16 mail postfix/submissions/smtpd[1604]: warning: hostname 75.EPHEC.65.190.193.in-addr.arpa does not resolve to address 193.190.65.75: Name or service not known
+Apr 15 13:21:11 mail postfix/submission/smtpd[10879]: warning: non-SMTP command from unknown[118.26.39.172]: GET / HTTP/1.1
+Apr 15 15:23:51 mail postfix/submissions/smtpd[23717]: warning: hostname apzg-0721m-048.stretchoid.com does not resolve to address 107.170.255.12
+Apr 15 15:23:51 mail postfix/submissions/smtpd[23717]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:14 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:16 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:17 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:18 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:18 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:18 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:18 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:18 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:18 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:19 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:20 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:20 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:21 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:22 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:23 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:23 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:24 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:25 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29575]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:26 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:30 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:31 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:31 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:31 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:31 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:31 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:32 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:33 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:34 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:35 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:36 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:38 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:38 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:38 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:38 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:38 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:38 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:39 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:39 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:40 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:40 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:40 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:41 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:42 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:42 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:42 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:43 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:44 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:44 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:44 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:45 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:45 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:45 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:45 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:45 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:45 mail postfix/submission/smtpd[29596]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:46 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:46 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:47 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:48 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:48 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:48 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:48 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:48 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:48 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:49 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:50 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:50 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:50 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:50 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:51 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:51 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:54 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:54 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:54 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:54 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 16:20:54 mail postfix/submission/smtpd[29634]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 15 20:36:43 mail postfix/submissions/smtpd[23821]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 15 21:06:26 mail postfix/submissions/smtpd[26914]: warning: hostname apzg-0720b-115.stretchoid.com does not resolve to address 192.241.215.42
+Apr 15 21:06:26 mail postfix/submissions/smtpd[26914]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 15 21:20:16 mail postfix/submission/smtpd[28363]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 15 22:54:46 mail postfix/submission/smtpd[5746]: warning: hostname azpg-0725m-077.stretchoid.com does not resolve to address 162.243.132.10
+Apr 15 23:52:29 mail postfix/submissions/smtpd[11746]: warning: hostname apzg-0721m-061.stretchoid.com does not resolve to address 162.243.134.57
+Apr 15 23:52:29 mail postfix/submissions/smtpd[11746]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 16 00:10:28 mail postfix/submission/smtpd[13617]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 00:57:50 mail postfix/submission/smtpd[18556]: warning: hostname apzg-0720c-045.stretchoid.com does not resolve to address 162.243.138.46
+Apr 16 02:58:21 mail postfix/submission/smtpd[31106]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 03:32:56 mail postfix/submissions/smtpd[2276]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 03:32:58 mail postfix/submissions/smtpd[2276]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 03:32:59 mail postfix/submissions/smtpd[2276]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 16 04:30:35 mail postfix/submissions/smtpd[8235]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 04:30:42 mail postfix/submissions/smtpd[8235]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 04:30:51 mail postfix/submissions/smtpd[8235]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 16 05:45:38 mail postfix/submission/smtpd[16084]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 05:50:50 mail postfix/submissions/smtpd[16605]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr 16 05:50:53 mail postfix/submissions/smtpd[16605]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 05:50:55 mail postfix/submissions/smtpd[16605]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr 16 05:50:55 mail postfix/submissions/smtpd[16605]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr 16 08:13:20 mail postfix/smtpd[31563]: warning: hostname scanner-203.hk2.censys-scanner.com does not resolve to address 199.45.154.52: Name or service not known
+Apr 16 08:13:33 mail postfix/smtpd[31563]: warning: hostname scanner-203.hk2.censys-scanner.com does not resolve to address 199.45.154.52: Name or service not known
+Apr 16 08:13:35 mail postfix/smtpd[31563]: warning: hostname scanner-203.hk2.censys-scanner.com does not resolve to address 199.45.154.52: Name or service not known
+Apr 16 08:13:43 mail postfix/smtpd[31563]: warning: hostname scanner-203.hk2.censys-scanner.com does not resolve to address 199.45.154.52: Name or service not known
+Apr 16 08:13:46 mail postfix/smtpd[31563]: warning: hostname scanner-203.hk2.censys-scanner.com does not resolve to address 199.45.154.52: Name or service not known
+Apr 16 08:31:57 mail postfix/submission/smtpd[1062]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 10:30:53 mail postfix/submission/smtpd[13449]: warning: non-SMTP command from unknown[205.210.31.48]: GET / HTTP/1.1
+Apr 16 11:18:13 mail postfix/submission/smtpd[18392]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 13:48:17 mail opendkim[647]: 738676870D: failed to parse Authentication-Results: header field
+Apr 16 13:56:04 mail postfix/submissions/smtpd[2380]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 13:56:07 mail postfix/submissions/smtpd[2380]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 13:56:08 mail postfix/submissions/smtpd[2380]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 16 14:04:44 mail postfix/submission/smtpd[3293]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 14:41:04 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:41:06 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:41:16 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:41:20 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:41:23 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:41:30 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:41:34 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:41:44 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:41:46 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:41:56 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:41:57 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:42:01 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:42:05 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:42:09 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:42:12 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:42:21 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:42:23 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:42:34 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:42:37 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:42:49 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:42:51 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:42:56 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:43:03 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:43:14 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:43:17 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:43:20 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:43:22 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:43:33 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:43:35 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:43:38 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:43:41 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:43:52 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:43:53 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:43:56 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:43:58 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:44:09 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:44:10 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:44:13 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:44:16 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:44:27 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:44:28 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:44:31 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:44:33 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:44:44 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:44:44 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:44:48 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:44:50 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:01 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:45:02 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:05 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:45:07 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:18 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:45:19 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:22 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:45:25 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:35 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:45:36 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:39 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:45:40 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:52 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:45:53 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:45:55 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:45:58 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:46:10 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:46:10 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:46:13 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:46:15 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:46:26 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:46:26 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:46:29 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:46:31 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:46:42 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:46:46 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:46:57 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:46:58 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:47:10 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: Connection lost to authentication server, sasl_username=(unavailable)
+Apr 16 14:47:11 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:47:14 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:47:17 mail postfix/submission/smtpd[7072]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:47:20 mail postfix/submission/smtpd[7072]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 14:47:25 mail postfix/submission/smtpd[7144]: warning: hostname 189.219.52.23-clientes-izzi.mx does not resolve to address 189.219.52.23: Name or service not known
+Apr 16 14:47:32 mail postfix/submission/smtpd[7144]: warning: unknown[189.219.52.23]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=postmaster
+Apr 16 16:15:51 mail postfix/submission/smtpd[16986]: warning: hostname apzg-0721o-066.stretchoid.com does not resolve to address 192.241.224.44
+Apr 16 16:45:29 mail postfix/submissions/smtpd[20058]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 16:45:31 mail postfix/submissions/smtpd[20058]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 16:45:33 mail postfix/submissions/smtpd[20058]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 16 16:51:21 mail postfix/submission/smtpd[20690]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 19:38:26 mail postfix/submission/smtpd[5746]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 16 21:09:32 mail postfix/submissions/smtpd[15237]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 21:09:33 mail postfix/submissions/smtpd[15237]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 16 21:09:35 mail postfix/submissions/smtpd[15237]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 16 22:01:13 mail postfix/submissions/smtpd[20622]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 16 22:24:04 mail postfix/submission/smtpd[23007]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 01:32:49 mail postfix/submission/smtpd[10212]: warning: non-SMTP command from unknown[198.235.24.254]: GET / HTTP/1.1
+Apr 17 03:21:34 mail postfix/submission/smtpd[21543]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 04:00:32 mail postfix/submissions/smtpd[25419]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr 17 04:01:38 mail postfix/submissions/smtpd[25419]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 17 04:03:18 mail postfix/submissions/smtpd[25419]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr 17 04:03:51 mail postfix/submissions/smtpd[25419]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr 17 05:48:59 mail postfix/submissions/smtpd[4434]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 17 05:49:00 mail postfix/submissions/smtpd[4434]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 17 05:49:02 mail postfix/submissions/smtpd[4434]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 17 06:52:48 mail postfix/submissions/smtpd[11167]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 17 08:04:03 mail postfix/submission/smtpd[18623]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 09:03:56 mail postfix/submissions/smtpd[24859]: warning: hostname apzg-0719a-010.stretchoid.com does not resolve to address 198.199.108.16
+Apr 17 09:03:56 mail postfix/submissions/smtpd[24859]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 17 10:49:17 mail postfix/submission/smtpd[3394]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 13:04:49 mail postfix/submission/smtpd[17504]: warning: hostname apzg-0719a-046.stretchoid.com does not resolve to address 162.243.131.30
+Apr 17 13:15:02 mail postfix/submissions/smtpd[18562]: warning: TLS library problem: error:1417A0C1:SSL routines:tls_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:2283:
+Apr 17 13:15:03 mail postfix/submissions/smtpd[18562]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 17 13:15:04 mail postfix/submissions/smtpd[18565]: warning: TLS library problem: error:142090C1:SSL routines:tls_early_post_process_client_hello:no shared cipher:../ssl/statem/statem_srvr.c:1779:
+Apr 17 13:15:04 mail postfix/submissions/smtpd[18562]: warning: TLS library problem: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share:../ssl/statem/extensions_srvr.c:697:
+Apr 17 13:24:37 mail postfix/submissions/smtpd[19563]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 17 13:24:37 mail postfix/submissions/smtpd[19563]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 17 13:33:57 mail postfix/submission/smtpd[20543]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 16:19:36 mail postfix/submission/smtpd[5271]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 16:37:49 mail postfix/submission/smtpd[7248]: warning: hostname apzg-0727-m-156.stretchoid.com does not resolve to address 192.241.232.14
+Apr 17 19:04:31 mail postfix/submission/smtpd[22524]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 17 20:14:55 mail postfix/submission/smtpd[29908]: warning: hostname lmwtsi.cn does not resolve to address 106.75.72.144: Name or service not known
+Apr 17 20:14:56 mail postfix/submission/smtpd[29911]: warning: hostname lmwtsi.cn does not resolve to address 106.75.72.144: Name or service not known
+Apr 17 23:28:26 mail postfix/submission/smtpd[17614]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 00:56:27 mail postfix/submissions/smtpd[26782]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 00:56:30 mail postfix/submissions/smtpd[26782]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 00:56:33 mail postfix/submissions/smtpd[26782]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 01:15:42 mail postfix/submissions/smtpd[28809]: warning: hostname apzg-0727-m-143.stretchoid.com does not resolve to address 104.236.128.13
+Apr 18 01:15:42 mail postfix/submissions/smtpd[28809]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 18 01:25:43 mail postfix/submissions/smtpd[29866]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 18 01:50:04 mail postfix/submissions/smtpd[32387]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 01:50:07 mail postfix/submissions/smtpd[32387]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 01:50:09 mail postfix/submissions/smtpd[32387]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 02:44:05 mail postfix/submissions/smtpd[5581]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 02:44:07 mail postfix/submissions/smtpd[5581]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 02:44:11 mail postfix/submissions/smtpd[5581]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 02:45:02 mail postfix/submission/smtpd[5698]: warning: non-SMTP command from unknown[205.210.31.53]: GET / HTTP/1.1
+Apr 18 03:26:05 mail postfix/submission/smtpd[9987]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 03:37:33 mail postfix/submissions/smtpd[11161]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 03:37:36 mail postfix/submissions/smtpd[11161]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 03:37:39 mail postfix/submissions/smtpd[11161]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 04:31:41 mail postfix/submissions/smtpd[16813]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 04:31:44 mail postfix/submissions/smtpd[16813]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 04:31:47 mail postfix/submissions/smtpd[16813]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 05:25:45 mail postfix/submissions/smtpd[22464]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 05:25:47 mail postfix/submissions/smtpd[22464]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 05:25:51 mail postfix/submissions/smtpd[22464]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 05:30:39 mail postfix/submissions/smtpd[22994]: warning: hostname apzg-0720c-090.stretchoid.com does not resolve to address 104.131.144.31
+Apr 18 06:10:23 mail postfix/submission/smtpd[27135]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 06:12:22 mail postfix/submissions/smtpd[27343]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.71: Name or service not known
+Apr 18 06:12:35 mail postfix/submissions/smtpd[27343]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.71: Name or service not known
+Apr 18 06:12:39 mail postfix/submissions/smtpd[27343]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.71: Name or service not known
+Apr 18 06:12:40 mail postfix/submissions/smtpd[27343]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 06:12:43 mail postfix/submissions/smtpd[27343]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.71: Name or service not known
+Apr 18 06:12:45 mail postfix/submissions/smtpd[27343]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 06:12:48 mail postfix/submissions/smtpd[27343]: warning: hostname scanner-205.hk2.censys-scanner.com does not resolve to address 199.45.154.71: Name or service not known
+Apr 18 06:12:48 mail postfix/submissions/smtpd[27343]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 06:19:28 mail postfix/submissions/smtpd[28084]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 06:19:31 mail postfix/submissions/smtpd[28084]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 06:19:33 mail postfix/submissions/smtpd[28084]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 07:12:51 mail postfix/submissions/smtpd[1308]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 07:12:54 mail postfix/submissions/smtpd[1308]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 07:12:57 mail postfix/submissions/smtpd[1308]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 08:06:07 mail postfix/submissions/smtpd[6862]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 08:06:12 mail postfix/submissions/smtpd[6862]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 08:06:14 mail postfix/submissions/smtpd[6862]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 08:54:55 mail postfix/submission/smtpd[11955]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 08:59:41 mail postfix/submissions/smtpd[12445]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 08:59:43 mail postfix/submissions/smtpd[12445]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 08:59:46 mail postfix/submissions/smtpd[12445]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 09:53:13 mail postfix/submissions/smtpd[18038]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 09:53:16 mail postfix/submissions/smtpd[18038]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 09:53:19 mail postfix/submissions/smtpd[18038]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 10:36:19 mail postfix/submission/smtpd[22555]: warning: hostname internettl.org does not resolve to address 104.152.52.96
+Apr 18 10:36:20 mail postfix/submission/smtpd[22555]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 10:36:28 mail postfix/smtpd[22571]: warning: hostname internettl.org does not resolve to address 104.152.52.96
+Apr 18 10:36:38 mail postfix/submission/smtpd[22555]: warning: hostname internettl.org does not resolve to address 104.152.52.235
+Apr 18 10:46:53 mail postfix/submissions/smtpd[23636]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 10:46:56 mail postfix/submissions/smtpd[23636]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 10:46:59 mail postfix/submissions/smtpd[23636]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 11:39:41 mail postfix/submission/smtpd[29161]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 11:40:33 mail postfix/submissions/smtpd[29234]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 11:40:36 mail postfix/submissions/smtpd[29234]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 11:40:41 mail postfix/submissions/smtpd[29234]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 12:34:04 mail postfix/submissions/smtpd[2384]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 12:34:06 mail postfix/submissions/smtpd[2384]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 12:34:09 mail postfix/submissions/smtpd[2384]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 13:27:46 mail postfix/submissions/smtpd[7974]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 13:27:49 mail postfix/submissions/smtpd[7974]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 13:27:52 mail postfix/submissions/smtpd[7974]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 14:08:37 mail postfix/submissions/smtpd[12238]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 18 14:21:51 mail postfix/submissions/smtpd[13606]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 14:21:54 mail postfix/submissions/smtpd[13606]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 14:21:57 mail postfix/submissions/smtpd[13606]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 14:23:50 mail postfix/submission/smtpd[13830]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 15:16:27 mail postfix/submissions/smtpd[19298]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 15:16:30 mail postfix/submissions/smtpd[19298]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 15:16:33 mail postfix/submissions/smtpd[19298]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 15:34:53 mail postfix/submissions/smtpd[21248]: warning: hostname apzg-0720d-027.stretchoid.com does not resolve to address 107.170.208.22
+Apr 18 15:34:53 mail postfix/submissions/smtpd[21248]: warning: TLS library problem: error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:331:
+Apr 18 16:10:00 mail postfix/submissions/smtpd[24884]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 16:10:03 mail postfix/submissions/smtpd[24884]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 16:10:06 mail postfix/submissions/smtpd[24884]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 17:03:46 mail postfix/submissions/smtpd[30468]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 17:03:49 mail postfix/submissions/smtpd[30468]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 17:03:52 mail postfix/submissions/smtpd[30468]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 17:08:14 mail postfix/submission/smtpd[30952]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 17:57:42 mail postfix/submissions/smtpd[3644]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 17:57:44 mail postfix/submissions/smtpd[3644]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 17:57:47 mail postfix/submissions/smtpd[3644]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 18:53:04 mail postfix/submissions/smtpd[9418]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 18:53:07 mail postfix/submissions/smtpd[9418]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 18:53:09 mail postfix/submissions/smtpd[9418]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 19:47:39 mail postfix/submissions/smtpd[15095]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 19:47:42 mail postfix/submissions/smtpd[15095]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 19:47:45 mail postfix/submissions/smtpd[15095]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 18 19:52:39 mail postfix/submission/smtpd[15631]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 22:32:58 mail postfix/submission/smtpd[32338]: warning: non-SMTP command from unknown[205.210.31.12]: GET / HTTP/1.1
+Apr 18 22:37:01 mail postfix/submission/smtpd[32762]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 18 23:57:03 mail postfix/submissions/smtpd[8638]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 23:57:04 mail postfix/submissions/smtpd[8638]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 18 23:57:05 mail postfix/submissions/smtpd[8638]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
+Apr 19 01:21:42 mail postfix/submission/smtpd[17497]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 19 02:38:46 mail postfix/submission/smtpd[25533]: warning: hostname apzg-0721-a-100.stretchoid.com does not resolve to address 162.243.146.72
+Apr 19 04:07:34 mail postfix/submission/smtpd[2350]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 19 06:28:25 mail postfix/submissions/smtpd[17010]: warning: TLS library problem: error:1408F09C:SSL routines:ssl3_get_record:http request:../ssl/record/ssl3_record.c:321:
+Apr 19 06:51:47 mail postfix/submission/smtpd[19504]: warning: hostname static.vnpt.vn does not resolve to address 113.161.158.10
+Apr 19 06:57:50 mail postfix/submissions/smtpd[20138]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 19 06:57:56 mail postfix/submissions/smtpd[20138]: warning: TLS library problem: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:../ssl/statem/statem_srvr.c:1685:
+Apr 19 06:58:01 mail postfix/submissions/smtpd[20138]: warning: TLS library problem: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too low:../ssl/statem/statem_srvr.c:1685:
