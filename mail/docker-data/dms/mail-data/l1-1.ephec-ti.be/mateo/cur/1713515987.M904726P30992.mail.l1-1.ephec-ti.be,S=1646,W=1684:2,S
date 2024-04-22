@@ -1,0 +1,38 @@
+Return-Path: <louis@l1-1.ephec-ti.be>
+Delivered-To: mateo@l1-1.ephec-ti.be
+Received: from mail.l1-1.ephec-ti.be
+	by mail.l1-1.ephec-ti.be with LMTP
+	id yDK2NdMtImYQeQAAS2BY4g
+	(envelope-from <louis@l1-1.ephec-ti.be>)
+	for <mateo@l1-1.ephec-ti.be>; Fri, 19 Apr 2024 08:39:47 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by mail.l1-1.ephec-ti.be (Postfix) with ESMTP id D9C30687A7
+	for <mateo@l1-1.ephec-ti.be>; Fri, 19 Apr 2024 08:39:47 +0000 (UTC)
+Message-ID: <92209b47-207c-4f32-aa5e-1cd277f56d3b@l1-1.ephec-ti.be>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=l1-1.ephec-ti.be;
+	s=mail; t=1713515987;
+	bh=d8t5+vX33XvOcu8fbE+zJ+e91lgVe4fuvw3UfEQA29Q=;
+	h=Subject:To:References:From:In-Reply-To;
+	b=JthI5jhvrAPxCRVxf1CA54IrRAQpdoBpzNG/5WCLrQvu+nsRu/eZoBtRkAIBhNzEl
+	 PlYqGcpG7EkacWZwvitEsdNoyftT4+SlZBwXLskIog9WX1TzzXMpbL4uw9x+4vIq3T
+	 rcF1USdl4IzOXlQUxmHwueVgZrum518PGFC+acF94e5MFRh5ZP4x1yQXGSgaTYVnuo
+	 UbchfMGNSOW+a7yzm2tFSn5SWCJEivzF6xDVTM3TyEb859dzghilwoJMzg5AioIh5o
+	 vRJs033LZM//XncP0Wf5+8zrKxaduntABDpMKgKibedAsYK6YPjGqXxh3dxa1lx5NH
+	 uA1O2lUittTbQ==
+Date: Fri, 19 Apr 2024 10:39:45 +0200
+MIME-Version: 1.0
+Subject: Re: Test Presidente
+To: Mateo VPS <mateo@l1-1.ephec-ti.be>
+References: <d6f2ea86-b9a5-487d-a735-fa5104534020@l1-1.ephec-ti.be>
+Content-Language: fr
+From: Louis Huybrechts <louis@l1-1.ephec-ti.be>
+In-Reply-To: <d6f2ea86-b9a5-487d-a735-fa5104534020@l1-1.ephec-ti.be>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Ye sui telement rapide ke je te reponds avant que tu menvoies le mail
+AYYAYA
+
+Le 19-04-24 à 10:39, Mateo VPS a écrit :
+> Gut morneng presidente
+>

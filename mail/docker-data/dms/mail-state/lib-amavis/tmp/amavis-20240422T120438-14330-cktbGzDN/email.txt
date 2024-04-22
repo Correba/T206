@@ -1,0 +1,30 @@
+Message-ID: <e19a05e6-432e-489b-92ae-0a1dfa5a28eb@l1-1.ephec-ti.be>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=l1-1.ephec-ti.be;
+	s=mail; t=1713787478;
+	bh=vT0K/2U+QabYiMov1Lg9ezIwy+JtpYq5ue37PIJ+9K0=;
+	h=Subject:To:References:From:In-Reply-To;
+	b=ZhdP05o16GeRwfHQijhmvn8cwTBHGpp71xFF06pNdrvWsPYrJlB+fcCbuPop60mPU
+	 Xptd9Oe1Jhwzu6fZY9AA1893M5h8acm0EbOge3EDMHHS5IFNXqWKHRw4Qaj6EWOedh
+	 W0ql4H2bMONOPMciK+9SD/dVFdMCiDlfrKuXt/i52lgvdkO2G/j9+lsDe/eyWSoYtF
+	 1eVurSlJ9ECoVamh4shGSZ7HxGKaS38zFWUDonuYk+ItMbJqVD28cpd8FrrMclhA6Z
+	 roU3ms2gnppeT5udIQDyUJ7uhVe57wKLn7C+Y6MTj1/m1JtMG7cpc9jJqsWXDhm3CR
+	 ejIiWmJdyDAiw==
+Date: Mon, 22 Apr 2024 14:04:37 +0200
+MIME-Version: 1.0
+Subject: Re: Test TP
+To: Mateo VPS <mateo@l1-1.ephec-ti.be>
+References: <7a8df582-1900-4ab1-a169-dff95733ba05@l1-1.ephec-ti.be>
+Content-Language: fr
+From: Louis Huybrechts <louis@l1-1.ephec-ti.be>
+In-Reply-To: <7a8df582-1900-4ab1-a169-dff95733ba05@l1-1.ephec-ti.be>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonjour Mateo, très heureux de te voir et de te lire.
+
+Bonne journée à toi.
+Au revoir
+
+Le 22-04-24 à 14:03, Mateo VPS a écrit :
+> hello
+>

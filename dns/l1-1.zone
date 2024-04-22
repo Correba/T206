@@ -24,7 +24,18 @@ ns	IN	A	54.37.8.13
 ns      IN      AAAA    2001:41d0:401:3000::f8
 www	IN	CNAME	ns
 blog	IN	CNAME	ns
+
 mail    IN      A       54.37.8.13
 mail    IN      AAAA    2001:41d0:401:3000::f8
+
 louis   IN      A       54.37.11.203
+louis   IN      AAAA    2001:41d0:401:3000::5ba1
 hugo    IN      A       54.37.13.186
+hugo    IN      AAAA    2001:41d0:401:3000::2fda
+
+swarm   150     IN      A       54.37.8.13
+swarm   150     IN      AAAA    2001:41d0:401:3000::f8
+swarm   150     IN      A       54.37.11.203
+swarm   150     IN      AAAA    2001:41d0:401:3000::5ba1
+swarm   150     IN      A       54.37.13.186
+swarm   150     IN      AAAA    2001:41d0:401:3000::2fda

@@ -1,0 +1,49 @@
+Content-Type: multipart/alternative;
+ boundary="------------yJP30qJ0Hi79VLAgrJy9A0am"
+Message-ID: <42f08870-afe8-40c7-8b3b-e8dbf53abb66@l1-1.ephec-ti.be>
+Date: Mon, 15 Apr 2024 14:05:34 +0200
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: fr
+To: hUpbFAidVHFUZ3@dkimvalidator.com
+From: Mateo EPHEC VPS <mateo@l1-1.ephec-ti.be>
+Subject: T206 : Evaluation
+
+This is a multi-part message in MIME format.
+--------------yJP30qJ0Hi79VLAgrJy9A0am
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget 
+finibus mi. Etiam sit amet urna ac eros sodales fermentum non quis 
+sapien. Curabitur consequat massa magna, sit amet sollicitudin erat 
+mollis nec. Donec elementum semper odio, nec iaculis metus mollis in. In 
+sagittis id quam in aliquam. Proin sed elit vitae est efficitur semper. 
+Proin scelerisque tincidunt sem non sodales. Maecenas imperdiet lobortis 
+arcu non varius. Aliquam tincidunt dapibus scelerisque.
+
+--------------yJP30qJ0Hi79VLAgrJy9A0am
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><span
+style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+        eget finibus mi. Etiam sit amet urna ac eros sodales fermentum
+        non quis sapien. Curabitur consequat massa magna, sit amet
+        sollicitudin erat mollis nec. Donec elementum semper odio, nec
+        iaculis metus mollis in. In sagittis id quam in aliquam. Proin
+        sed elit vitae est efficitur semper. Proin scelerisque tincidunt
+        sem non sodales. Maecenas imperdiet lobortis arcu non varius.
+        Aliquam tincidunt dapibus scelerisque.</span></p>
+  </body>
+</html>
+
+--------------yJP30qJ0Hi79VLAgrJy9A0am--

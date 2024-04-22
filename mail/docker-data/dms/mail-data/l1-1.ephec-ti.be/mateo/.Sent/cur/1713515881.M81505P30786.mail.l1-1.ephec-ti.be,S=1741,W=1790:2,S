@@ -1,0 +1,49 @@
+Content-Type: multipart/alternative;
+ boundary="------------NFnoBErE6TeMpVSIbnAXqDq0"
+Message-ID: <7b552c2f-8617-4f59-ab97-d408da9c0c5c@l1-1.ephec-ti.be>
+Date: Fri, 19 Apr 2024 10:37:59 +0200
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Subject: Re: Test
+To: HUYBRECHTS LOUIS <l.huybrechts@students.ephec.be>
+References: <VE1PR05MB747161930382E72A37C96015C33C2@VE1PR05MB7471.eurprd05.prod.outlook.com>
+Content-Language: fr
+From: Mateo VPS <mateo@l1-1.ephec-ti.be>
+In-Reply-To: <VE1PR05MB747161930382E72A37C96015C33C2@VE1PR05MB7471.eurprd05.prod.outlook.com>
+
+This is a multi-part message in MIME format.
+--------------NFnoBErE6TeMpVSIbnAXqDq0
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+test toi même
+
+Le 04-04-24 à 15:31, HUYBRECHTS LOUIS a écrit :
+> Test
+--------------NFnoBErE6TeMpVSIbnAXqDq0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p>test toi même<br>
+    </p>
+    <div class="moz-cite-prefix">Le 04-04-24 à 15:31, HUYBRECHTS LOUIS a
+      écrit :<br>
+    </div>
+    <blockquote type="cite"
+cite="mid:VE1PR05MB747161930382E72A37C96015C33C2@VE1PR05MB7471.eurprd05.prod.outlook.com">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style type="text/css" style="display:none;">P {margin-top:0;margin-bottom:0;}</style>
+      <div class="elementToProof"
+style="font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+        Test</div>
+    </blockquote>
+  </body>
+</html>
+
+--------------NFnoBErE6TeMpVSIbnAXqDq0--

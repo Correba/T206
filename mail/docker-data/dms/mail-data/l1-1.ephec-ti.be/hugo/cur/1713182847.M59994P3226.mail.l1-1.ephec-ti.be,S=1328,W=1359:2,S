@@ -1,0 +1,31 @@
+Return-Path: <mateo@l1-1.ephec-ti.be>
+Delivered-To: hugo@l1-1.ephec-ti.be
+Received: from mail.l1-1.ephec-ti.be
+	by mail.l1-1.ephec-ti.be with LMTP
+	id kpFkA38YHWaaDAAAS2BY4g
+	(envelope-from <mateo@l1-1.ephec-ti.be>)
+	for <hugo@l1-1.ephec-ti.be>; Mon, 15 Apr 2024 12:07:27 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by mail.l1-1.ephec-ti.be (Postfix) with ESMTP id 017946878F
+	for <hugo@l1-1.ephec-ti.be>; Mon, 15 Apr 2024 12:07:26 +0000 (UTC)
+Message-ID: <f0d78c73-c4ad-4299-a0c4-9d7c2e116874@l1-1.ephec-ti.be>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=l1-1.ephec-ti.be;
+	s=mail; t=1713182842;
+	bh=681GR5OGnh38FgKXlpkm7JEd4AeZeAHjscISqR0fQVk=; h=To:From:Subject;
+	b=mUU6pENbFzwhmxdAClfNciRd4LLXP8TfFZPkCFY6inSW0a90hkmP8zgoB21rLakUY
+	 hOgAhTEyipXyfjn48XdtYybs/yY2PJ9R2XN5JrYdG2CXXjuMByR1pU/SjuMJRLDlhY
+	 3YLDd5sKOytxVwsrzsztEBto5WZYPby4Pa7DNLtC1LteJJfqz6T/ukMNleWRr6mplA
+	 iWpMygIIwMT+E1ZeXrcKq3abH8f4R3p7jfwYjwLtxnKksJkOzniibWsKFtJWsUkRVf
+	 KfKpjldoUVaU3/97aQ4LZkAPvfOLlaOytsVgW9pMf70g9sXQ8WqM0O3JBQlfF+foMC
+	 8Zd0YLLdmUOdA==
+Date: Mon, 15 Apr 2024 14:07:20 +0200
+MIME-Version: 1.0
+Content-Language: fr
+To: hugo@l1-1.ephec-ti.be
+From: Mateo EPHEC VPS <mateo@l1-1.ephec-ti.be>
+Subject: Spam
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Ceci n'est PAS un Spam
+
