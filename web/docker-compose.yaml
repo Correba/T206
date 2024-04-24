@@ -12,9 +12,9 @@ services:
     volumes:
       - ./html:/var/www/html
       - ../certificate/:/etc/letsencrypt/
-
     networks:
       - api
+      - dns
   php:
     build: ./php
     image: php
@@ -50,3 +50,6 @@ services:
 networks:
   api:
   db:
+  dns:
+    name: DoH
+    driver: bridge
