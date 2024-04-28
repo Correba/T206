@@ -52,4 +52,4 @@ networks:
   db:
   dns:
     name: DoH
-    driver: bridge
+    external: true

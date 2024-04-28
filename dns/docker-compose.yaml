@@ -15,4 +15,4 @@ services:
 networks:
  dns:
   name: DoH
-  external: true
+  driver: bridge
