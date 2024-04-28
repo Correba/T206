@@ -1,8 +1,6 @@
-version: "3.9"
-
 services:
   db:
-    build: ./database
+    image: correba/woody_database
     cap_add:
       - SYS_NICE
     restart: always
@@ -13,16 +11,16 @@ services:
       - '3306:3306'
 
   api:
-    build: ./api
+    image: correba/woody_api
     restart: always
     links:
       - "db"
 
   front:
-    build: ./front
+    image: correba/woody_front
 
   reverse:
-    build: ./reverse-proxy
+    image: correba/woody_rp
     ports:
       - "80:8080"
     depends_on:
