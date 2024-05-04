@@ -1,23 +1,59 @@
 services:
-  db:
+  master_db:
     image: correba/woody_database
     cap_add:
       - SYS_NICE
     restart: always
     environment:
-      - MYSQL_DATABASE=woody
-      - MYSQL_ROOT_PASSWORD=pass
-    ports:
-      - '3306:3306'
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    networks:
+      - db
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      placement:
+        constraints: node.hostname == vps-mateo
+
+  redis:
+    image: redis:6.2-alpine
+    environment:
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+    networks:
+      - cache
 
   api:
     image: correba/woody_api
     restart: always
-    links:
-      - "db"
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_HOST_MASTER=${MYSQL_HOST_MASTER}
+      - MYSQL_HOST_SLAVE=${MYSQL_HOST_SLAVE}
+    networks:
+      - db
+      - api
+      - cache
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+    deploy:
+      replicas: 3
 
   front:
     image: correba/woody_front
+    networks:
+      - front
+    deploy:
+      replicas: 3
 
   reverse:
     image: correba/woody_rp
@@ -26,3 +62,14 @@ services:
     depends_on:
       - front
       - api
+    networks:
+      - front
+      - api
+    deploy:
+      mode: global
+
+networks:
+  api:
+  cache:
+  db:
+  front:

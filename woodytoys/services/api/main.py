@@ -6,10 +6,16 @@ from flask_cors import CORS
 
 import woody
 
+import os
+import redis
+
 app = Flask('my_api')
 cors = CORS(app)
 
-# redis_db = redis.Redis(host='redis', port=6379, db=0)
+redis_host = os.environ.get('REDIS_HOST')
+redis_password = os.environ.get('REDIS_PASSWORD')
+
+cache = redis.Redis(host=redis_host, port=6379, db=0, password=redis_password)
 
 
 @app.get('/api/ping')
@@ -27,9 +33,13 @@ def get_time():
 def get_heavy():
     # TODO TP9: cache ?
     name = request.args.get('name')
-    r = woody.make_some_heavy_computation(name)
+    key = f'heavy_{name}'
+    heavy = cache.get(key)
+    if heavy is None:
+        heavy = woody.make_some_heavy_computation(name)
+        cache.setex(key, 3600, heavy)
     # on rajoute la date pour pas que le resultat ne soit mis en cache par le browser
-    return f'{datetime.now()}: {r}'
+    return f'{datetime.now()}: {heavy}'
 
 
 # ### 2. Product Service ###
@@ -37,7 +47,8 @@ def get_heavy():
 def add_product():
     # product = request.json.get('product', '')
     product = request.args.get('product')
-    woody.add_product(str(product))
+    if product:
+        woody.add_product(str(product))
     return str(product) or "none"
 
 
@@ -49,8 +60,16 @@ def get_product(product_id):
 @app.route('/api/products/last', methods=['GET'])
 def get_last_product():
     # TODO TP9: put in cache ? cache duration ?
-    last_product = woody.get_last_product()  # note: it's a very slow db query
-    return f'db: {datetime.now()} - {last_product}'
+    key = 'last_product'
+    cached_last_product = cache.get(key)
+
+    if cached_last_product is not None:
+        return f'cache: {datetime.now()} - {cached_last_product}'
+
+    else:
+        last_product = woody.get_last_product()  # note: it's a very slow db query
+        cache.setex(key, 3600, last_product)
+        return f'db: {datetime.now()} - {last_product}'
 
 
 # ### 3. Order Service
@@ -79,7 +98,11 @@ def get_order():
 def process_order(order_id, order):
     # ...
     # ... do many check and stuff
-    status = woody.make_heavy_validation(order)
+    key_validation = f'validation_{order}'
+    status = cache.get(key_validation)
+    if not status:
+        status = woody.make_heavy_validation(order)
+        cache.setex(key_validation, 3600, status)
 
     woody.save_order(order_id, status, order)
 
