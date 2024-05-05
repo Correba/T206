@@ -3,10 +3,11 @@ services:
     image: correba/woody_database
     cap_add:
       - SYS_NICE
-    restart: always
     environment:
-      - MYSQL_DATABASE=${MYSQL_DATABASE}
-      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=woody
+      - MYSQL_ROOT_PASSWORD=/run/secrets/db_password
+    secrets:
+      - db_password
     networks:
       - db
     healthcheck:
@@ -17,23 +18,30 @@ services:
       start_period: 10s
     deploy:
       placement:
-        constraints: node.hostname == vps-mateo
+        constraints:
+          - node.hostname == vps-mateo
 
   redis:
     image: redis:6.2-alpine
     environment:
-      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_PASSWORD=/run/secrets/redis_password
+    secrets:
+      - redis_password
     networks:
       - cache
 
   api:
     image: correba/woody_api
-    restart: always
     environment:
-      - MYSQL_DATABASE=${MYSQL_DATABASE}
-      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-      - MYSQL_HOST_MASTER=${MYSQL_HOST_MASTER}
-      - MYSQL_HOST_SLAVE=${MYSQL_HOST_SLAVE}
+      - MYSQL_DATABASE=woody
+      - MYSQL_ROOT_PASSWORD=/run/secrets/db_password
+      - MYSQL_HOST_MASTER=master_db
+      - MYSQL_HOST_SLAVE=slave_db
+      - REDIS_HOST=redis
+      - REDIS_PASSWORD=/run/secrets/redis_password
+    secrets:
+      - db_password
+      - redis_password
     networks:
       - db
       - api
@@ -73,3 +81,9 @@ networks:
   cache:
   db:
   front:
+
+secrets:
+  db_password:
+    file: secrets/db_password.txt
+  redis_password:
+    file: secrets/redis_password.txt
