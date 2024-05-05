@@ -10,10 +10,10 @@ services:
       - db
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
-      interval: 1m30s
-      timeout: 10s
+      interval: 2m
+      timeout: 20s
       retries: 3
-      start_period: 10s
+      start_period: 15s
     deploy:
       placement:
         constraints:
@@ -32,10 +32,10 @@ services:
       - db
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
-      interval: 1m30s
-      timeout: 10s
+      interval: 2m
+      timeout: 20s
       retries: 3
-      start_period: 10s
+      start_period: 15s
     deploy:
       placement:
         constraints:
@@ -62,10 +62,10 @@ services:
       - cache
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
-      interval: 1m30s
-      timeout: 10s
+      interval: 3m
+      timeout: 20s
       retries: 3
-      start_period: 10s
+      start_period: 15s
     deploy:
       replicas: 3
 

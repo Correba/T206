@@ -39,3 +39,5 @@ swarm   150     IN      A       54.37.11.203
 swarm   150     IN      AAAA    2001:41d0:401:3000::5ba1
 swarm   150     IN      A       54.37.13.186
 swarm   150     IN      AAAA    2001:41d0:401:3000::2fda
+
+cdn.swarm	CNAME	cl-glf0d784f8.gcdn.co.
