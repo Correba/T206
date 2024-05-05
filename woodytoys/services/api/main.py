@@ -13,9 +13,10 @@ app = Flask('my_api')
 cors = CORS(app)
 
 redis_host = os.environ.get('REDIS_HOST')
-redis_password = os.environ.get('REDIS_PASSWORD')
 
-cache = redis.Redis(host=redis_host, port=6379, db=0, password=redis_password)
+cache = redis.Redis(host=redis_host, port=6379)
+if not cache:
+    exit(1)
 
 
 @app.get('/api/ping')

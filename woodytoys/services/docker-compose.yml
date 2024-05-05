@@ -1,13 +1,11 @@
 services:
   master_db:
-    image: correba/woody_database
+    image: correba/woody_master_database
     cap_add:
       - SYS_NICE
     environment:
       - MYSQL_DATABASE=woody
-      - MYSQL_ROOT_PASSWORD=/run/secrets/db_password
-    secrets:
-      - db_password
+      - MYSQL_ROOT_PASSWORD=pass
     networks:
       - db
     healthcheck:
@@ -21,27 +19,43 @@ services:
         constraints:
           - node.hostname == vps-mateo
 
+  slave_db:
+    image: correba/woody_slave_database
+    cap_add:
+      - SYS_NICE
+    depends_on:
+      - master_db
+    environment:
+      - MYSQL_DATABASE=woody
+      - MYSQL_ROOT_PASSWORD=pass
+    networks:
+      - db
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == vps-louish
+
   redis:
     image: redis:6.2-alpine
-    environment:
-      - REDIS_PASSWORD=/run/secrets/redis_password
-    secrets:
-      - redis_password
     networks:
       - cache
 
   api:
     image: correba/woody_api
+    depends_on:
+      - redis
     environment:
       - MYSQL_DATABASE=woody
-      - MYSQL_ROOT_PASSWORD=/run/secrets/db_password
+      - MYSQL_ROOT_PASSWORD=pass
       - MYSQL_HOST_MASTER=master_db
       - MYSQL_HOST_SLAVE=slave_db
       - REDIS_HOST=redis
-      - REDIS_PASSWORD=/run/secrets/redis_password
-    secrets:
-      - db_password
-      - redis_password
     networks:
       - db
       - api
@@ -52,7 +66,6 @@ services:
       timeout: 10s
       retries: 3
       start_period: 10s
-
     deploy:
       replicas: 3
 
@@ -81,9 +94,3 @@ networks:
   cache:
   db:
   front:
-
-secrets:
-  db_password:
-    file: secrets/db_password.txt
-  redis_password:
-    file: secrets/redis_password.txt

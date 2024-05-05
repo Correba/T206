@@ -1,3 +1,7 @@
+CREATE USER 'repl'@'%' IDENTIFIED with mysql_native_password BY 'replpass';
+GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';
+FLUSH PRIVILEGES;
+
 create table woody.product
 (
     id   int auto_increment
@@ -16,4 +20,3 @@ CREATE TABLE woody.order (
     status VARCHAR(200) NOT NULL,
     product VARCHAR(200) NOT NULL
 );
-
