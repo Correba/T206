@@ -18,7 +18,7 @@ cache = None
 def is_redis_available():
     try:
         cache.ping()
-    except (redis.exceptions.ConnectionError, redis.exceptions.BusyLoadingError):
+    except (redis.exceptions.ConnectionError, redis.exceptions.BusyLoadingError, redis.exceptions.TimeoutError):
         return False
     return True
 
@@ -48,6 +48,7 @@ def get_heavy():
     # TODO TP9: cache ?
     name = request.args.get('name')
     key = f'heavy_{name}'
+    heavy = None
     if redis_connect():
         heavy = cache.get(key)
     if heavy is None:
@@ -62,8 +63,11 @@ def get_heavy():
 def add_product():
     # product = request.json.get('product', '')
     product = request.args.get('product')
+    key = 'last_product'
     if product:
         woody.add_product(str(product))
+        if redis_connect():
+            cache.delete(key)
     return str(product) or "none"
 
 
@@ -76,6 +80,8 @@ def get_product(product_id):
 def get_last_product():
     # TODO TP9: put in cache ? cache duration ?
     key = 'last_product'
+    last_product = None
+    cached_last_product = None
     if redis_connect():
         cached_last_product = cache.get(key)
 
