@@ -46,7 +46,30 @@ services:
     networks:
       - cache
 
-  api:
+  api-misc:
+    image: correba/woody_api
+    depends_on:
+      - redis
+    environment:
+      - MYSQL_DATABASE=woody
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_HOST_MASTER=master_db
+      - MYSQL_HOST_SLAVE=slave_db
+      - REDIS_HOST=redis
+    networks:
+      - db
+      - api
+      - cache
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
+      interval: 3m
+      timeout: 20s
+      retries: 3
+      start_period: 20s
+    deploy:
+      replicas: 3
+
+  api-products:
     image: correba/woody_api
     depends_on:
       - redis
@@ -76,6 +99,28 @@ services:
     deploy:
       replicas: 3
 
+  api-orders:
+    image: correba/woody_api
+    depends_on:
+      - redis
+    environment:
+      - MYSQL_DATABASE=woody
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_HOST_MASTER=master_db
+      - MYSQL_HOST_SLAVE=slave_db
+      - REDIS_HOST=redis
+    networks:
+      - db
+      - api
+      - cache
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
+      interval: 3m
+      timeout: 20s
+      retries: 3
+      start_period: 20s
+    deploy:
+      replicas: 3
   reverse:
     image: correba/woody_rp
     ports:
