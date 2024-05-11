@@ -9,6 +9,9 @@ version=${1:-"$default_version"}
 docker build -t correba/woody_api:"$version" api 
 docker tag correba/woody_api:"$version" correba/woody_api:latest
 
+docker build -t correba/woody_internal:"$version" internal 
+docker tag correba/woody_internal:"$version" correba/woody_internal:latest
+
 docker build -t correba/woody_rp:"$version" reverse-proxy
 docker tag correba/woody_rp:"$version" correba/woody_rp:latest
 
@@ -26,6 +29,9 @@ docker tag correba/woody_front:"$version" correba/woody_front:latest
 
 docker push correba/woody_api:"$version"
 docker push correba/woody_api:latest
+
+docker push correba/woody_internal:"$version"
+docker push correba/woody_internal:latest
 
 docker push correba/woody_rp:"$version"
 docker push correba/woody_rp:latest

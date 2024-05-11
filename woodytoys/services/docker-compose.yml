@@ -8,6 +8,7 @@ services:
       - MYSQL_ROOT_PASSWORD=pass
     networks:
       - db
+      - internal-db
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
       interval: 3m
@@ -30,6 +31,7 @@ services:
       - MYSQL_ROOT_PASSWORD=pass
     networks:
       - db
+      - internal-db
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
       interval: 3m
@@ -45,21 +47,48 @@ services:
     image: redis:6.2-alpine
     networks:
       - cache
+      - internal-cache
 
-  api-misc:
-    image: correba/woody_api
+  rabbitmq:
+    image: rabbitmq:3.8-rc-management
+    networks:
+      - rabbitmq
+      - internal-rabbit
+
+  internal:
+    image: correba/woody_internal
     depends_on:
       - redis
+      - rabbitmq
     environment:
       - MYSQL_DATABASE=woody
       - MYSQL_ROOT_PASSWORD=pass
       - MYSQL_HOST_MASTER=master_db
       - MYSQL_HOST_SLAVE=slave_db
       - REDIS_HOST=redis
+      - RABBITMQ_HOST=rabbitmq
+    networks:
+      - internal-rabbit
+      - internal-cache
+      - internal-db
+
+  api-misc:
+    image: correba/woody_api
+    depends_on:
+      - redis
+      - rabbitmq
+    environment:
+      - MYSQL_DATABASE=woody
+      - MYSQL_ROOT_PASSWORD=pass
+      - MYSQL_HOST_MASTER=master_db
+      - MYSQL_HOST_SLAVE=slave_db
+      - REDIS_HOST=redis
+      - RABBITMQ_HOST=rabbitmq
     networks:
       - db
       - api
       - cache
+      - rabbitmq
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
       interval: 3m
@@ -73,16 +102,19 @@ services:
     image: correba/woody_api
     depends_on:
       - redis
+      - rabbitmq
     environment:
       - MYSQL_DATABASE=woody
       - MYSQL_ROOT_PASSWORD=pass
       - MYSQL_HOST_MASTER=master_db
       - MYSQL_HOST_SLAVE=slave_db
       - REDIS_HOST=redis
+      - RABBITMQ_HOST=rabbitmq
     networks:
       - db
       - api
       - cache
+      - rabbitmq
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
       interval: 3m
@@ -92,27 +124,23 @@ services:
     deploy:
       replicas: 3
 
-  front:
-    image: correba/woody_front
-    networks:
-      - front
-    deploy:
-      replicas: 3
-
   api-orders:
     image: correba/woody_api
     depends_on:
       - redis
+      - rabbitmq
     environment:
       - MYSQL_DATABASE=woody
       - MYSQL_ROOT_PASSWORD=pass
       - MYSQL_HOST_MASTER=master_db
       - MYSQL_HOST_SLAVE=slave_db
       - REDIS_HOST=redis
+      - RABBITMQ_HOST=rabbitmq
     networks:
       - db
       - api
       - cache
+      - rabbitmq
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/api/ping"]
       interval: 3m
@@ -134,8 +162,19 @@ services:
     deploy:
       replicas: 3
 
+  front:
+    image: correba/woody_front
+    networks:
+      - front
+    deploy:
+      replicas: 3
+
 networks:
   api:
   cache:
   db:
   front:
+  rabbitmq:
+  internal-rabbit:
+  internal-cache:
+  internal-db:

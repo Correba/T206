@@ -8,12 +8,16 @@ import woody
 
 import os
 import redis
+import pika
+import json
 
 app = Flask('my_api')
 cors = CORS(app)
 
 redis_host = os.environ.get('REDIS_HOST')
 cache = None
+
+rabbitmq_host = os.environ.get('RABBITMQ_HOST')
 
 def is_redis_available():
     try:
@@ -97,12 +101,24 @@ def get_last_product():
 def create_order():
     # very slow process because some payment validation is slow (maybe make it asynchronous ?)
     # order = request.get_json()
-    product = request.args.get('product')
+    product = request.args.get('order')
+    print(f"Product: {product}")
     order_id = str(uuid.uuid4())
 
     # TODO TP10: this next line is long, intensive and can be done asynchronously ... maybe use a message broker ?
-    process_order(order_id, product)
+    connection = pika.BlockingConnection(pika.ConnectionParameters(rabbitmq_host))
+    channel = connection.channel()
 
+    channel.queue_declare(queue='order_queue', durable=True)
+
+    channel.basic_publish(exchange='',
+                          routing_key='order_queue',
+                          body=json.dumps({'order_id': order_id, 'product': product}),
+                          properties=pika.BasicProperties(
+                              delivery_mode=2, 
+                          ))
+
+    connection.close()
     return f"Your process {order_id} has been created"
 
 

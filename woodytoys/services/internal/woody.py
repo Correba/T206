@@ -7,7 +7,6 @@
 # ( ce fichier sera, à terme dans une lib externe pour rendre plus clair la séparation)
 
 
-from werkzeug.serving import run_simple
 from mysql.connector import connect, Error
 from time import sleep
 
@@ -102,11 +101,6 @@ def add_product(product):
     mydb.commit()
     mycursor.close()
     mydb.close()
-
-
-def launch_server(app, host='0.0.0.0', port=5000):
-    # voici ce qui rend le serveur si limité ...
-    run_simple(host, port, app, use_reloader=True, threaded=False)
 
 
 def save_order(order_id, status, product):
